@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-14">
+            <g id="Group-13" fill="#FF43B6">
+                <g id="Group-11">
+                    <g id="Group">
+                        <g id="Group-3">
+                            <g id="Group-2">
+                                <circle id="Oval" cx="150" cy="150" r="150"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <circle id="Oval-3" stroke="#FFFFFF" stroke-width="10" fill="#F4A7FF" cx="147" cy="149" r="100"></circle>
+            <path d="M119,55 L165.093397,117.958631 C175.760805,132.529164 184.408447,158.986447 184.408447,177.04338 L184.408447,245.712356" id="Path-3" stroke="#FFFFFF" stroke-width="10"></path>
+            <path d="M46,148.736349 L150.680569,139.538589 C164.914898,138.287889 185.914026,130.600974 197.592088,122.36328 L233.54802,97" id="Path-4" stroke="#FFFFFF" stroke-width="10"></path>
+            <path d="M97,230.34793 L156.864808,183.179259 C170.385496,172.52604 195.139744,165.980801 212.174313,168.562991 L240.657192,172.880576" id="Path-10" stroke="#FFFFFF" stroke-width="10"></path>
+        </g>
+    </g>
+</svg>

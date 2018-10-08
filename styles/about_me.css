@@ -1,0 +1,9 @@
+.about_me {
+  padding: 0 32px;
+  text-align: left;
+}
+
+.about_me_photo {
+	margin: 0 auto;
+	display: block;
+}

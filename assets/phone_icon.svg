@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8">
+            <g id="Group-4">
+                <circle id="Oval" fill="#FF43B6" cx="150" cy="150" r="150"></circle>
+                <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="10" x="89" y="54" width="115" height="194" rx="8"></rect>
+                <polygon id="Path-5" fill="#FFFFFF" points="90.1852201 224 206 224.076435 206 243.807275 89.644773 243.4774"></polygon>
+                <polygon id="Path-5" fill="#FFFFFF" points="89.5404471 57 205.355227 57.0347302 205.355227 66 89 65.8501117"></polygon>
+                <rect id="Rectangle-3" fill="#F4A7FF" x="120" y="56" width="49" height="3"></rect>
+                <circle id="Oval-2" fill="#F4A7FF" cx="148.5" cy="236.5" r="7.5"></circle>
+            </g>
+            <rect id="Rectangle" fill="#E0E0E0" x="93" y="65" width="107" height="160"></rect>
+        </g>
+    </g>
+</svg>

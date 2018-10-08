@@ -1,0 +1,26 @@
+
+.col-25 {
+  width: 25%;
+  float: left;
+}
+
+.col-50 {
+  width: 50%;
+  float: left;
+
+}
+
+.col-75 {
+  width: 75%;
+  float: left;
+}
+
+.col-100 {
+  width: 100%;
+  float: left;
+}
+
+.col-33{
+  width: 33.33%;
+  float:left;
+}
