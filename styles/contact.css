@@ -9,15 +9,12 @@
 	padding-top: 20px;
 }
 
-
-
 .cellphone_container {
   border-radius: 100%;
   background: none;
   width: 500px;
   height: 500px;
 }
-
 
 .cellphone {
   background: url("./../assets/cellphone_one.svg") no-repeat top right;
@@ -28,7 +25,6 @@
   margin: 0 auto;
   top: 5%;
   left: 5%;
-
 }
 
 .contact_description{
