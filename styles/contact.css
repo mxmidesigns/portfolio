@@ -37,16 +37,20 @@
 
 .contact_container{
 	text-align: center;
+	padding: 10px;
 }
 
-
-.mail {
-	background: url("./../assets/mail_icon.svg") no-repeat;
+.contact_icons{
 	background-size: contain;
 	width: 100px;
 	height: 100px;
 	position: relative;
 	margin: 0 auto;
+	display: inline-block;
+}
+
+.mail {
+	background: url("./../assets/mail_icon.svg") no-repeat;
 }
 
 .mail:hover {
@@ -56,11 +60,6 @@
 
 .phone {
 	background: url("./../assets/phone_icon.svg") no-repeat;
-	background-size: contain;
-	width: 100px;
-	height: 100px;
-	position: relative;
-	margin: 0 auto;
 }
 
 .phone:hover {
@@ -70,11 +69,6 @@
 
 .linkedin {
 	background: url("./../assets/linkedin_icon.svg") no-repeat;
-	background-size: contain;
-	width: 100px;
-	height: 100px;
-	position: relative;
-	margin: 0 auto;
 }
 
 .linkedin:hover {
@@ -84,11 +78,6 @@
 
 .dribble {
 	background: url("./../assets/dribble_icon.svg") no-repeat;
-	background-size: contain;
-	width: 100px;
-	height: 100px;
-	position: relative;
-	margin: 0 auto;
 }
 
 .dribble:hover {
