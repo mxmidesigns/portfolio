@@ -87,14 +87,15 @@ html {
 
 .intro {
   position: relative;
-	background: none;
-	border-radius: .4em;
+  background: none;
+  border-radius: .4em;
   width: 100%;
   padding: 0 16px 0 0;
   text-align: left;
   font-size: 25px;
   color: #ffffff;
 }
+
 
 #skills{
 }
@@ -106,16 +107,20 @@ html {
   margin-bottom: 48px;
 }
 
+
+.buttons{
+	background-color: #FF43B6;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
 .intro_button {
-    background-color: #FF43B6;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
     margin-left: 40%;
-    cursor: pointer;
-    border-radius: 10px;
 }

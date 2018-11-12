@@ -41,7 +41,6 @@
 }
 
 .contact_icons{
-	background-size: contain;
 	width: 100px;
 	height: 100px;
 	position: relative;
@@ -51,6 +50,7 @@
 
 .mail {
 	background: url("./../assets/mail_icon.svg") no-repeat;
+	background-size: contain;
 }
 
 .mail:hover {
@@ -60,6 +60,7 @@
 
 .phone {
 	background: url("./../assets/phone_icon.svg") no-repeat;
+	background-size: contain;
 }
 
 .phone:hover {
@@ -69,6 +70,7 @@
 
 .linkedin {
 	background: url("./../assets/linkedin_icon.svg") no-repeat;
+	background-size: contain;
 }
 
 .linkedin:hover {
@@ -78,6 +80,7 @@
 
 .dribble {
 	background: url("./../assets/dribble_icon.svg") no-repeat;
+	background-size: contain;
 }
 
 .dribble:hover {
