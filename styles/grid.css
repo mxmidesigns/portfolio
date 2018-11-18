@@ -24,3 +24,9 @@
   width: 33.33%;
   float:left;
 }
+
+@media screen and (max-width: 1080px) {
+	[class*="col-"]{
+		width: 100%;
+	}
+}

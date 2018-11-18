@@ -1,6 +1,6 @@
 .project-one{
   height: 500px;
-  background-color: #8C99E9;
+  background-color: #ffffff;
 }
 
 .project-two{
@@ -13,9 +13,6 @@
   background-color: #8C99E9;
 }
 
-.project-divider {
-  margin: 5rem 0;
-}
 
 .project-heading {
   font-weight: 300;
@@ -28,7 +25,7 @@
 .description {
   width: 75%;
   height: 200px;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-left: 15%;
   font-size: 19px;
   margin-bottom: 50px;
@@ -60,9 +57,9 @@
 }
 
 #project{
-	background: url("./../assets/project_header_three.svg") no-repeat;
+	background: url("./../assets/project_header.jpg") no-repeat;
 	grid-area: header;
-	height: 600px;
+	height: 500px;
 	position: relative;
 	width: 100%;
 	margin: 0 auto;

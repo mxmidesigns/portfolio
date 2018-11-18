@@ -1,0 +1,169 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.inktank_cover{
+	width: 100%;
+	height: 600px;
+	background: url("./../assets/inktank_cover.jpg") no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.inktank_button_project_container {
+	text-align: center;
+}
+.inktank_button_project{
+	margin-top: 50px;
+	background-color: #FF43B6;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.inktank_categories{
+	color: #FF43B6;
+	margin-left:100px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+.inktank_description{
+	margin-left: 100px;
+	line-height: 2;
+	width: 500px;
+
+}
+
+.inktank_criteria{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 75px;
+}
+
+
+.inktank_intro{
+	text-align: center;
+	color: #FF43B6;
+	padding-bottom: 30px;
+}
+
+.inktank_title{
+	text-align: center;
+	font-size: 20px;
+	padding: 30px;
+	font-weight: bold;
+}
+
+.inktank_details{
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 30px;
+	line-height: 2;
+
+}
+
+.key_list {
+	margin-left:100px;
+	width: 500px;
+}
+
+.list_items {
+	margin-bottom: 16px;
+}
+
+.main-carousel{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.gallery {
+  	background: #EEE;
+}
+
+.gallery-cell {
+	width: 66%;
+	height: 500px;
+	margin-right: 10px;
+	background: #8C8;
+	counter-increment: gallery-cell;
+}
+
+.comp_gallery-cell{
+	width: 50%;
+	height: 300px;
+	margin-right: 10px;
+	padding: 50px;
+	background: #8C8;
+	counter-increment: gallery-cell;
+}
+
+.persona1_gallery-cell{
+	 width: 100%;
+	 height: 800px;
+	 margin-right: 10px;
+	 padding: 50px;
+	 counter-increment: gallery-cell;
+	 background: url("./../assets/lauren_persona1.jpg") no-repeat;
+	 background-size: 100% 100%;
+}
+
+.persona2_gallery-cell{
+	 width: 100%;
+	 height: 800px;
+	 margin-right: 10px;
+	 padding: 50px;
+	 counter-increment: gallery-cell;
+	 background: url("./../assets/natalie_persona2.jpg") no-repeat;
+	 background-size: 100% 100%;
+}
+
+.persona3_gallery-cell{
+	 width: 100%;
+	 height: 800px;
+	 margin-right: 10px;
+	 padding: 50px;
+	 counter-increment: gallery-cell;
+	 background: url("./../assets/danny_persona3.jpg") no-repeat;
+	 background-size: 100% 100%;
+}
+
+/* cell number */
+.gallery-cell:before {
+	display: block;
+	text-align: center;
+	content: counter(gallery-cell);
+	line-height: 200px;
+	font-size: 80px;
+	color: white;
+}
+
+.inktank_divider{
+	height: 1px;
+	width: 100%;
+	display: block;
+	background-color: grey;
+
+}
+
+.affinitymap{
+	width: 800px;
+	height: 600px;
+	background: url("./../assets/affinitymap.svg") no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
