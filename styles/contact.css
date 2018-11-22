@@ -48,6 +48,25 @@
 	display: inline-block;
 }
 
+.contact_icons.mail a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.contact_icons.linkedin a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.contact_icons.dribble a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+
 .mail {
 	background: url("./../assets/mail_icon.svg") no-repeat;
 	background-size: contain;

@@ -6,6 +6,8 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   font-family: arial;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -13,6 +15,9 @@ html {
   height: 100%;
 }
 
+a:hover, a:active, a:focus, a {
+	outline: 0px none;
+}
 
 .topnav {
   background-color: #000000;
