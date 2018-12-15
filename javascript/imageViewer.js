@@ -27,16 +27,12 @@ function onImageClick(e) {
 		document.body.appendChild(modalContainer);
 		modal = modalContainer;
 	}
-	console.log(e.style.background);
+
 	var style = e.currentStyle || window.getComputedStyle(e, false);
 	var url = style.backgroundImage.slice(4, -1).replace('url(','').replace(')','').replace(/\"/gi, "");
-	console.log(url);
 
 	var img = modal.querySelector(".modal-content");
 	img.src = url;
-	// modal.querySelector("#caption").innerHTML = "ur mom";
 	modal.style.display = "block";
 
-	console.log(this.background)
-	console.log(modal);
 }
