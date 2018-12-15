@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-14">
+            <circle id="Oval" fill="#5C8FE8" cx="17.5" cy="17.5" r="17.5"></circle>
+            <text id="$" style="mix-blend-mode: color;" font-family="SFProText-Regular, SF Pro Text" font-size="24" font-weight="normal" fill="#FFFFFF">
+                <tspan x="11.21875" y="26">$</tspan>
+            </text>
+            <text id="$" font-family="SFProText-Regular, SF Pro Text" font-size="24" font-weight="normal" fill="#FFFFFF">
+                <tspan x="10.21875" y="25">$</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

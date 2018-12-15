@@ -1,113 +1,100 @@
 * {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  font-family: arial;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-html {
-  width: 100%;
-  height: 100%;
+html, body {
+    width: 100%;
+    height: 100%;
 }
 
-
-.topnav {
-  background-color: #000000;
-  overflow: hidden;
-  padding-left: 50px;
-}
-
-.topnav a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #000000;
-  color: #3e3e3e;
-}
-
-.topnav a.active {
-  background-color: #000000;
-  color: white;
+a:hover, a:active, a:focus, a {
+    outline: 0px none;
 }
 
 .header {
-  grid-area: header;
-  height: 600px;
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 30px;
-  background-color: #8C99E9;
+    grid-area: header;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1d1145;
+    overflow: hidden;
 }
 
 .grill_container {
-  border-radius: 100%;
-  background: none;
-  width: 415px;
-  height: 415px;
+    border-radius: 100%;
+    background: #f2a1a1;
+    width: 415px;
+    height: 415px;
+    margin: 0 auto;
 }
 
 .grill {
-  background: url("./../assets/basic_grill_1.svg") no-repeat top left;
-  background-size: contain;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin: 0 auto;
-  top: 15%;
-  left: 15%;
-
+    background: url("./../assets/basic_grill_1.svg") no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
 }
 
 .grill:hover {
-  background: url("./../assets/basic_grill_2.svg") no-repeat top left;
-  background-size: contain;
+    background: url("./../assets/basic_grill_2.svg") no-repeat center;
+    background-size: contain;
 }
 
 .name {
-  font-size: 50px;
-  text-align: left;
-  color: #FF43B6;
-
+    font-size: 50px;
+    text-align: center;
+    color: #e76d89;
 }
 
 .title {
-  text-align:center;
-  padding-top: 30px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .intro {
-  position: relative;
-	background: none;
-	border-radius: .4em;
-  width: 100%;
-  padding: 0 16px 0 0;
-  text-align: left;
-  font-size: 25px;
-  color: #ffffff;
-}
-
-#skills{
+    position: relative;
+    background: none;
+    border-radius: .4em;
+    width: 100%;
+    padding: 0 25px 0 0;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
 }
 
 .skills_container {
-  text-align:center;
-}
-.skill-circle {
-  margin-bottom: 48px;
+    text-align: center;
 }
 
-.button {
-    background-color: #FF43B6;
+.skill_title {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #0db4b9;
+}
+
+.skill_description {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.rounded-circle {
+    height: 130px;
+    width: 130px;
+}
+
+.buttons {
+    background-color: #0db4b9;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -115,7 +102,146 @@ html {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 10%;
     cursor: pointer;
     border-radius: 10px;
 }
+
+.skills_button {
+    text-align: center;
+}
+
+.about_me_button {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) {
+    .grill {
+        width: 100%;
+        height: 100%;
+    }
+
+    .grill_container {
+        width: 315px;
+        height: 315px;
+    }
+
+    .intro {
+        padding-left: 25px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .skill_title {
+        color: #0db4b9;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .skill_description {
+        padding-bottom: 30px;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .rounded-circle {
+        height: 100px;
+        width: 100px;
+    }
+
+    .modal-content {
+        width: 100%;
+        height: auto;
+    }

@@ -1,0 +1,849 @@
+.gocards_cover {
+    width: 100%;
+    height: 600px;
+    background: url("./../assets/gocard_header.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+.gocards_project_title {
+	text-align: center;
+	font-size: 90px;
+	padding-top: 200px;
+	color: white;
+}
+
+.gocards_project_subtitle{
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+	padding-top: 20px;
+	color: white;
+}
+
+.gocards_button_project_container {
+    text-align: center;
+	overflow: hidden;
+}
+
+.gocards_button_project {
+    margin-top: 25px;
+	margin-bottom: 25px;
+    background-color: #6200EE;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.gocards_overview {
+	padding: 0 32px;
+	overflow: hidden;
+}
+
+.gocards_discovery{
+	overflow: hidden;
+}
+
+.gocards_concepting{
+	overflow: hidden;
+}
+
+.gocards_prototyping{
+	overflow: hidden;
+}
+
+.gocards_documentation{
+	overflow: hidden;
+}
+
+.gocards_categories {
+    color: #6200EE;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.gocards_description {
+    line-height: 2;
+}
+
+.gocards_criteria {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.gocards_intro {
+    text-align: center;
+    color: #6200EE;
+    padding-bottom: 10px;
+}
+
+.gocards_title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.gocards_details {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+
+.key_list {
+	padding-left: 32px;
+}
+
+.list_items {
+    margin-bottom: 16px;
+	line-height: 2;
+}
+
+.issue_items{
+	padding-left: 32px;
+	margin-bottom: 16px;
+	color: #6200EE;
+	font-weight: bold;
+}
+
+.main-carousel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+	overflow: hidden;
+}
+
+.gallery {
+    background: #EEE;
+}
+
+.gocard_prototype_screen1_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype1.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.gocard_prototype_screen2_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype2.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.gocard_prototype_screen3_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype3.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.gocard_prototype_screen4_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype4.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.gocard_prototype_screen5_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype5.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.gocard_prototype_screen6_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype6.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.gallery_cell {
+    width: 66%;
+    height: 500px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+}
+
+.comp_gallery_cell {
+	width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/tattoodo_swot.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.competitor_icons{
+	text-align:center;
+	word-spacing: 30px;
+}
+
+.gocards_persona {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocards_persona.jpg") no-repeat center;
+    background-size: 850px 500px;
+}
+
+
+.gocard_journeymap_gallery_cell{
+	width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_journeymap.jpg") no-repeat center;
+    background-size: 800px 500px;
+}
+
+
+
+
+.ia1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/inktank_sitemap.jpg") no-repeat center;
+	background-size: 850px 500px;
+}
+
+.ia2_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/card_sorting.jpg") no-repeat center;
+	background-size: 850px 500px;
+}
+
+.ia3_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/similarity_matrix.jpg") no-repeat center;
+	background-size: 550px 500px;
+}
+
+
+.whitney_userflow1_gallery_cell{
+	width: 100%;
+	height: 400px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_userflow1.jpg") no-repeat center;
+	background-size: 550px 400px;
+}
+
+.whitney_userflow2_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_userflow2.jpg") no-repeat center;
+	background-size: 350px 500px;
+}
+
+
+.gocard_lowfidelity1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_lowfidelity_1.jpg") no-repeat center;
+	background-size: 900px 500px;
+}
+
+.gocard_lowfidelity2_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_lowfidelity_2.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.gocard_lowfidelity3_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_lowfidelity_3.1.jpg") no-repeat center;
+    background-size: 900px 550px;
+}
+
+.gocard_lowfidelity4_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_lowfidelity_4.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.gocard_lowfidelity5_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_lowfidelity_5.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.gocard_lowfidelity6_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_lowfidelity_6.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.gocard_highfidelity1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_1.jpg") no-repeat center;
+	background-size: 900px 500px;
+}
+
+.gocard_highfidelity2_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_2.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.gocard_highfidelity3_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_3.1.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.gocard_highfidelity4_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_4.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.gocard_highfidelity5_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_5.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.gocard_highfidelity6_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_6.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.gocard_iteration1_gallery_cell{
+	width: 100%;
+	height: 450px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_iteration_1.jpg") no-repeat center;
+	background-size: 900px 450px;
+}
+
+.gocard_iteration2_gallery_cell{
+	width: 100%;
+	height: 450px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_iteration_2.jpg") no-repeat center;
+	background-size: 900px 450px;
+}
+
+.gocard_final_ui1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui1.jpg") no-repeat center;
+	background-size: 1100px 500px;
+}
+
+.gocard_final_ui2_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui2.jpg") no-repeat center;
+	background-size: 1100px 500px;
+}
+
+.gocard_final_ui3_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui3.jpg") no-repeat center;
+	background-size: 1100px 500px;
+}
+
+.gocard_final_ui4_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui4.jpg") no-repeat center;
+	background-size: 1100px 500px;
+}
+
+.gocard_final_ui5_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui5.jpg") no-repeat center;
+	background-size: 1100px 500px;
+}
+
+
+/* cell number */
+.gallery_cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.gocards_divider {
+    height: 2px;
+    width: 80%;
+    display: block;
+    background-color: #f2f2f2;
+	padding: 0 16px;
+	margin: 8px auto;
+}
+
+.table_header{
+	background-color: #6200EE;
+	color: white;
+	font-size: 1.5em;
+	padding: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+}
+
+table th{
+	background-color: #CEBDFE;
+	height: 50px;
+}
+
+table td{
+	text-align: left;
+    vertical-align: middle;
+	padding-bottom: 25px;
+	line-height: 1.5;
+}
+
+table td, table th {
+  padding: 10px;
+}
+
+.table_icons {
+  height: 40px;
+  width: 40px;
+  background-position: center;
+}
+
+
+table tr:nth-child(2n) {
+  background-color: white;
+}
+table tr:nth-child(2n+1) {
+  background-color: #f2e6ff;
+}
+
+.table-users {
+  border: 1px solid #ebccff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  max-width: calc(100% - 2em);
+  margin: 1em auto;
+  overflow: hidden;
+  width: 800px;
+}
+
+.gocard_prototype_screen1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.gocard_prototype_screen2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_prototype_screen3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_prototype_screen4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_prototype_screen5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_prototype_screen6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocards_persona:hover{
+	opacity: 0.5;
+}
+
+.gocard_journeymap_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.whitney_userflow1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.whitney_userflow2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_lowfidelity1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_lowfidelity2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_lowfidelity3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_lowfidelity4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_lowfidelity5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_lowfidelity6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_highfidelity1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_highfidelity2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_highfidelity3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_highfidelity4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_highfidelity5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_highfidelity6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_iteration1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_iteration2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_final_ui1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_final_ui2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_final_ui3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_final_ui4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_final_ui5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 1080px) {
+
+	p.gocards_description {
+		margin-left: 0;
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	p.gocards_details {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 100%;
+	}
+
+	.key_list {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.prototype_screen1_gallery_cell{
+	    background-size: 350px 700px;
+		height: 700px;
+	}
+
+	.prototype_screen2_gallery_cell{
+		background-size: 350px 700px;
+	  	height: 700px;
+	}
+
+	.prototype_screen3_gallery_cell{
+		background-size: 350px 700px;
+ 	    height: 700px;
+	}
+
+	.prototype_screen4_gallery_cell{
+		background-size: 350px 700px;
+	  	height: 700px;
+	}
+
+	.prototype_screen5_gallery_cell{
+		background-size: 350px 700px;
+ 	    height: 700px;
+	}
+
+	.prototype_screen6_gallery_cell{
+		background-size: 350px 700px;
+   	    height: 700px;
+	}
+
+	.gocards_categories {
+	   text-align: center;
+	}
+
+	.gocards_cover {
+	    height: 600px;
+	}
+
+	.gocards_project_title {
+		font-size: 70px;
+		padding-top: 100px;
+	}
+
+	.gocards_project_subtitle{
+		font-size: 25px;
+        padding: 20px 5px 5px;
+	}
+
+	.gocards_persona  {
+	    height: 250px;
+	    background-size: 350px 250px;
+	}
+
+	.gocard_journeymap_gallery_cell{
+		height: 250px;
+		background-size: 350px 250px;
+	}
+
+	.whitney_userflow1_gallery_cell{
+		height: 250px;
+		background-size: 350px 250px;
+	}
+
+	.whitney_userflow2_gallery_cell{
+		height: 300px;
+		background-size: 200px 300px;
+	}
+
+
+	.gocard_lowfidelity1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_lowfidelity2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_lowfidelity3_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_lowfidelity4_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_lowfidelity5_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_lowfidelity6_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_highfidelity1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_highfidelity2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_highfidelity3_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_highfidelity4_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_highfidelity5_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_highfidelity6_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+
+	.gocard_iteration1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_iteration2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_final_ui1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_final_ui2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_final_ui3_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_final_ui4_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_final_ui5_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+
+	table, tr, td {
+	    display: block;
+	  }
+
+	  td:first-child {
+	    position: absolute;
+	    top: 50%;
+	    -webkit-transform: translateY(-50%);
+	            transform: translateY(-50%);
+	    width: 100px;
+	  }
+	  td:not(:first-child) {
+	    clear: both;
+	    margin-left: 15px;
+	    padding: 4px 20px 4px 100px;
+	    position: relative;
+	    text-align: left;
+	  }
+	  td:not(:first-child):before {
+	    color: #0074D9;
+	    content: '';
+	    display: block;
+	    left: 0;
+	    position: absolute;
+	  }
+	  td:nth-child(2):before {
+	    content: 'Issue:';
+		width: 200px;
+	  }
+	  td:nth-child(3):before {
+	    content: 'Severity:';
+		width: 200px;
+	  }
+	  td:nth-child(4):before {
+	    content: 'Change:';
+		width: 200px;
+	  }
+	  td:nth-child(5):before {
+	    content: 'Evidence:';
+		width: 200px;
+	  }
+
+	  tr {
+	    padding: 10px 0;
+	    position: relative;
+	  }
+	  tr:first-child {
+	    display: none;
+	  }
+
+	  img {
+	    height: 0px;
+	    width: 0px;
+	  }
+
+	  .table_header{
+		  	font-size: 15px;
+	  }
+
+	}

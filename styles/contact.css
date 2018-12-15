@@ -1,36 +1,144 @@
 .contact_header {
-	background-color: #8C99E9;
+    background-color: #1d1145;
+    height: 100%;
 }
 
-
 .contact_heading {
-	color: #FF43B6;
-	text-align: center;
-	padding-top: 20px;
+    color: #e76d89;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.lets_get_in_touch {
+    background-color: #1d1145;
+    padding-top: 30px;
 }
 
 .cellphone_container {
-  border-radius: 100%;
-  background: none;
-  width: 500px;
-  height: 500px;
+    border-radius: 100%;
+    background: none;
+    width: 100%;
+    height: 500px;
 }
 
 .cellphone {
-  background: url("./../assets/cellphone_one.svg") no-repeat top right;
-  background-size: contain;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin: 0 auto;
-  top: 5%;
-  left: 5%;
+    background: url("./../assets/cellphone.svg") no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    top: 5%;
 }
 
-.contact_description{
-	margin-left: 15%;
+.contact_description {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 100px;
+
 }
 
-.contact_icons{
-	margin-left: 15%;
+.contact_description_icon {
+    font-size: 20px;
+    color: white;
 }
+
+.contact_container {
+    text-align: center;
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact_button{
+	background-color: #1d1145;
+	border: solid;
+	color: #e76d89;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+.contact_icons {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact_icons.mail a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.contact_icons.phone a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.contact_icons.linkedin a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.contact_icons.dribble a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.mail {
+    background: url("./../assets/mail_icon.svg") no-repeat;
+    background-size: contain;
+}
+
+.mail:hover {
+    background: url("./../assets/mail_icon_hover.svg") no-repeat;
+    background-size: contain;
+}
+
+.phone {
+    background: url("./../assets/phone_icon.svg") no-repeat;
+    background-size: contain;
+}
+
+.phone:hover {
+    background: url("./../assets/phone_icon_hover.svg") no-repeat;
+    background-size: contain;
+}
+
+.linkedin {
+    background: url("./../assets/linkedin_icon.svg") no-repeat;
+    background-size: contain;
+}
+
+.linkedin:hover {
+    background: url("./../assets/linkedin_icon_hover.svg") no-repeat;
+    background-size: contain;
+}
+
+.dribble {
+    background: url("./../assets/dribble_icon.svg") no-repeat;
+    background-size: contain;
+}
+
+.dribble:hover {
+    background: url("./../assets/dribble_icon_hover.svg") no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1080px) {}

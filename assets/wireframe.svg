@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="295px" height="295px" viewBox="0 0 295 295" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="171.981481" y="95.1272189" width="32.4320988" height="4.44674556"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <g id="Group-2">
+                <circle id="Oval" fill-opacity="0.890568388" fill="#809CCE" cx="147.5" cy="147.5" r="147.5"></circle>
+                <rect id="Rectangle-4" fill="#FFFFFF" x="76" y="64" width="142" height="167"></rect>
+                <polygon id="Path-2" fill="#D8D8D8" points="76.038118 80 217.958336 80 217.98467 63.9686249 76.038118 63.9686249"></polygon>
+                <rect id="Rectangle-6" stroke="#9C9B9B" stroke-width="4" x="88.5185185" y="97.6213018" width="70.0679012" height="67.6420118"></rect>
+                <rect id="Rectangle-7" stroke="#9C9B9B" stroke-width="4" x="89.8333333" y="182.109467" width="30.6234568" height="29.5976331"></rect>
+                <rect id="Rectangle-7" stroke="#9C9B9B" stroke-width="4" x="132.783951" y="182.109467" width="30.6234568" height="29.5976331"></rect>
+                <rect id="Rectangle-7" stroke="#9C9B9B" stroke-width="4" x="175.734568" y="182.109467" width="30.6234568" height="29.5976331"></rect>
+                <path d="" id="Path-3" stroke="#979797"></path>
+                <path d="M90,99 L157,163" id="Line" stroke="#9C9B9B" stroke-width="4" stroke-linecap="square"></path>
+                <g id="Rectangle-8">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="172.481481" y="95.6272189" width="31.4320988" height="3.44674556"></rect>
+                </g>
+                <rect id="Rectangle-8" fill="#666666" x="171.981481" y="109.455621" width="32.4320988" height="4.44674556"></rect>
+                <rect id="Rectangle-8" fill="#666666" x="171.981481" y="123.784024" width="32.4320988" height="4.44674556"></rect>
+                <rect id="Rectangle-8" fill="#666666" x="171.981481" y="138.112426" width="32.4320988" height="4.44674556"></rect>
+                <rect id="Rectangle-8" fill="#666666" x="171.981481" y="151.452663" width="32.4320988" height="4.44674556"></rect>
+                <rect id="Rectangle-8" fill="#666666" x="172.419753" y="165.781065" width="32.4320988" height="4.44674556"></rect>
+                <rect id="Rectangle-8" fill="#666666" x="171.981481" y="95.1272189" width="32.4320988" height="4.44674556"></rect>
+                <path d="M90,164 L157,99" id="Line" stroke="#9C9B9B" stroke-width="4" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="295px" height="295px" viewBox="0 0 295 295" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="50" y="95" width="202" height="123"></rect>
+        <rect id="path-2" x="164" y="168" width="53" height="37"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-9.000000, -12.000000)">
+            <circle id="Oval" fill-opacity="0.890568388" fill="#C1E4DD" cx="156.5" cy="159.5" r="147.5"></circle>
+            <rect id="Rectangle-3" fill="#9A9A9A" x="122" y="236" width="70" height="12"></rect>
+            <g id="Rectangle">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#FFFFFF" stroke-width="5" x="52.5" y="97.5" width="197" height="118"></rect>
+            </g>
+            <g id="Rectangle-2">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#3F3F3F" stroke-width="4" x="166" y="170" width="49" height="33"></rect>
+            </g>
+            <path d="M166.5,126 L209.5,126" id="Line" stroke="#575757" stroke-width="6" stroke-linecap="square"></path>
+            <path d="M166.5,140 L236,140" id="Line" stroke="#5B5B5B" stroke-width="6" stroke-linecap="square"></path>
+            <path d="M166.5,156 L204,156" id="Line" stroke="#5B5B5B" stroke-width="6" stroke-linecap="square"></path>
+            <path d="M69.8357143,144.311111 L69.8357143,152.4" id="Line" stroke="#373737" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M128.835714,144.311111 L128.835714,152.4" id="Line" stroke="#373737" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M128.835714,169.311111 L128.835714,177.4" id="Line" stroke="#373737" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M105.213057,126.90452 L112.795588,126.90452" id="Line" stroke="#373737" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M105.213057,192.90452 L112.795588,192.90452" id="Line" stroke="#373737" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M86.2130571,126.90452 L93.7955878,126.90452" id="Line" stroke="#373737" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M85.2130571,192.90452 L92.7955878,192.90452" id="Line" stroke="#373737" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M69.8357143,168.311111 L69.8357143,176.4" id="Line" stroke="#373737" stroke-width="7" stroke-linecap="square"></path>
+            <ellipse id="Oval-2" fill="#484646" style="mix-blend-mode: multiply;" cx="76.3571429" cy="126.333333" rx="8.35714286" ry="9.33333333"></ellipse>
+            <ellipse id="Oval-2" fill="#484646" style="mix-blend-mode: multiply;" cx="132.357143" cy="126.333333" rx="8.35714286" ry="9.33333333"></ellipse>
+            <ellipse id="Oval-2" fill="#484646" style="mix-blend-mode: multiply;" cx="76.3571429" cy="191.333333" rx="8.35714286" ry="9.33333333"></ellipse>
+            <ellipse id="Oval-2" fill="#484646" style="mix-blend-mode: multiply;" cx="132.357143" cy="191.333333" rx="8.35714286" ry="9.33333333"></ellipse>
+            <ellipse id="Oval-2" fill="#7F7D7D" cx="71.3571429" cy="126.333333" rx="8.35714286" ry="9.33333333"></ellipse>
+            <ellipse id="Oval-2" fill="#7F7D7D" cx="126.357143" cy="126.333333" rx="8.35714286" ry="9.33333333"></ellipse>
+            <ellipse id="Oval-2" fill="#7F7D7D" cx="71.3571429" cy="191.333333" rx="8.35714286" ry="9.33333333"></ellipse>
+            <ellipse id="Oval-2" fill="#7F7D7D" cx="126.357143" cy="191.333333" rx="8.35714286" ry="9.33333333"></ellipse>
+            <path d="M156.5,220.5 L156.5,235.5" id="Line" stroke="#A1A0A0" stroke-width="5" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

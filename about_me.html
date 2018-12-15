@@ -1,36 +1,71 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<title> Mai's Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="styles/styles.css">
-		<link rel="stylesheet" type="text/css" href="styles/grid.css">
-		<link rel="stylesheet" type="text/css" href="styles/about_me.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	</head>
+<head>
+	<title> Mai's Portfolio</title>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="styles/grid.css">
+	<link rel="stylesheet" type="text/css" href="styles/projects.css">
+	<link rel="stylesheet" type="text/css" href="styles/about_me.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact.css">
+	<link rel="stylesheet" type="text/css" href="styles/inktank.css">
+	<link rel="stylesheet" type="text/css" href="styles/gocards.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="./javascript/navbar.js"></script>
+</head>
 
-	<body>
-		<div class="topnav">
-		  <a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
-		  <a href="#projects"><i class="fa fa-briefcase"></i> Projects </a>
-		  <a href="#resume"><i class="fa fa-file"></i> Resume </a>
-		  <a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
-		  <a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
+<body>
+	<div class="topnav" id="myTopnav">
+		<button class="hamburger" onclick="toggleNavbar()"><i class="fas fa-bars"></i></button>
+
+		<a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
+
+		<div class="dropdown">
+			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-briefcase"></i> Projects</button>
+			<div class="dropdown-content">
+				<a href="inktank.html">Ink Tank</a>
+				<a href="gocards.html">Go Kards</a>
+			</div>
 		</div>
 
-		<div class="header">
-			<div class="col-100">
-				<div class="col-50">
-					<p class="about_me">
-						blahblah ablha blah BRU FEESH blah blah blah blah blah blah
+		<a href="#resume"><i class="fa fa-file"></i> Resume </a>
+		<a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
+		<a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
+
+	</div>
+
+<div class="about_me col-100">
+	<div class="about_me_header">
+	</div>
+			<div class="about_me col-100">
+				<div class="image col-50">
+					<div class="about_me_photo">
+					</div>
+
+					<div class="about_me_button_container">
+						<a href="#" class="about_me_button">Download Resume</a>
+					</div>
+
+				</div>
+				<div class="facts col-50">
+					<p class="about_me_description">
+						Greetings! My name is Mai Nguyen. My regular days consists of mapping users' experience thanks to the methods of Design Thinking. I enjoy it a lot, even outside the digital world. I like to analyze interactivity in everyday life and explore concepts of aesthetics and interactive design. My goal is to make sure people
+						have a delightful experience with thoughful design.<br><br>
+						Before, I graduated from San Jose State Universiy with a Bachelor's Degree in Business. Many people wonder "What made you change your study?" Working 2 years at Apigee Corp. & Peloton Technology sparked up my interest into tech. I gathered the courage and started a Bootcamp at
+						CareerFoundry and realized generating creative ideas from user's point of view to create life-impactful design and beautigul experiences is what I enjoy doing. <br><br>
+						My interests include: Playing jazz music on the piano, reading on Cultural Anthropology, drawing with vector graphics, learning programming languages on the side, finding brunch places that sell avocado toast.
 					</p>
 				</div>
 
-				<div class="col-50">
-					<img class="about_me_photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPCm-iqK1umpHOs-mOW9Rx9EJvJXN5Q4NyqlF9Vd2lvySoHk7yg" alt="Generic placeholder image">
-				</div>
+
 			</div>
-		</div>
+
+
+
+
 	</body>
 
-</html>
+	</html>

@@ -1,42 +1,73 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<title> Mai's Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="styles/styles.css">
-		<link rel="stylesheet" type="text/css" href="styles/grid.css">
-		<link rel="stylesheet" type="text/css" href="styles/about_me.css">
-		<link rel="stylesheet" type="text/css" href="styles/contact.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	</head>
+<head>
+	<title> Mai's Portfolio</title>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="styles/grid.css">
+	<link rel="stylesheet" type="text/css" href="styles/projects.css">
+	<link rel="stylesheet" type="text/css" href="styles/about_me.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact.css">
+	<link rel="stylesheet" type="text/css" href="styles/inktank.css">
+	<link rel="stylesheet" type="text/css" href="styles/gocards.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="./javascript/navbar.js"></script>
+</head>
 
-	<body>
-		<div class="topnav">
-		  <a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
-		  <a href="#projects"><i class="fa fa-briefcase"></i> Projects </a>
-		  <a href="#resume"><i class="fa fa-file"></i> Resume </a>
-		  <a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
-		  <a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
+<body>
+	<div class="topnav" id="myTopnav">
+		<button class="hamburger" onclick="toggleNavbar()"><i class="fas fa-bars"></i></button>
+
+		<a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
+
+		<div class="dropdown">
+			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-briefcase"></i> Projects</button>
+			<div class="dropdown-content">
+				<a href="inktank.html">Ink Tank</a>
+				<a href="gocards.html">Go Kards</a>
+			</div>
 		</div>
 
-		<div class="header">
-			<div class="col-100">
-				<div class="col-50">
-					<div class="cellphone_container">
-						<div class="cellphone"></div>
+		<a href="#resume"><i class="fa fa-file"></i> Resume </a>
+		<a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
+		<a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
+
+	</div>
+
+	<div class="contact_header col-100">
+		<div class="col-50">
+			<div class="cellphone_container">
+				<div class="cellphone"></div>
+			</div>
+		</div>
+		<div class="col-50 ">
+			<div class="lets_get_in_touch">
+				<h1 class="contact_heading">Let's get in touch!</h1>
+				<br>
+				<p class="contact_description">Feel free to send me an email <br><br><a href="mailto:maihannguyen14@gmail.com" class="contact_button">maihannguyen94@gmail.com</a></p>
+				<div class="contact_container">
+					<p class="contact_description_icon">You can connect with me everywhere.</p><br>
+					<div class="contact_icons mail">
+						<a href="mailto:maihannguyen14@gmail.com"></a>
 					</div>
-				</div>
-				<div class="col-50">
-					<h1 class="name">Let's get in touch!</h1>
-					<br>
-					<p class="intro">call me, beep me, if you want to reach me. </p><br>
-					<div class="contact_icons">
-						<img src="./assets/mail_icon.svg" alt="Email" class="mail"/>
+					<div class="contact_icons phone">
+						<a href="tel:5103866957"></a>
 					</div>
+					<div class="contact_icons linkedin">
+						<a href="https://www.linkedin.com/in/mai-nguyen-6a3745b8/"></a>
+					</div>
+					<div class="contact_icons dribble">
+						<a href="https://dribbble.com/mai_nguyen"></a>
+					</div>
+
 				</div>
 			</div>
 		</div>
 
-	</body>
+
+</body>
 
 </html>
