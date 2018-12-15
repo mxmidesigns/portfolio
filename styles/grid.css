@@ -29,4 +29,11 @@
 	[class*="col-"]{
 		width: 100%;
 	}
+
+	.col-33{
+	  width: 50%;
+	  float:left;
+	}
+
+
 }

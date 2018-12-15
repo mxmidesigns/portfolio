@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> Mai's Portfolio</title>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="styles/grid.css">
+	<link rel="stylesheet" type="text/css" href="styles/projects.css">
+	<link rel="stylesheet" type="text/css" href="styles/about_me.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact.css">
+	<link rel="stylesheet" type="text/css" href="styles/flickity.css">
+	<link rel="stylesheet" type="text/css" href="styles/gocards.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="./javascript/navbar.js"></script>
+	<script src="./javascript/imageViewer.js"></script>
+</head>
+
+<body>
+	<div class="topnav" id="myTopnav">
+		<button class="hamburger" onclick="toggleNavbar()"><i class="fas fa-bars"></i></button>
+
+		<a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
+
+		<div class="dropdown">
+			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-briefcase"></i> Projects</button>
+			<div class="dropdown-content">
+				<a href="inktank.html">Ink Tank</a>
+				<a href="gocards.html">Go Kards</a>
+			</div>
+		</div>
+
+		<a href="#resume"><i class="fa fa-file"></i> Resume </a>
+		<a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
+		<a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
+
+	</div>
+	<div class="gocards_cover">
+		<p class="gocards_project_title"> GOCARDS </p>
+		<p class="gocards_project_subtitle"> The best way to learn on the go, customized just for you. </p>
+	</div>
+
+	<div class="gocards_overview col-50">
+		<h3 class="gocards_categories "> THE PROBLEM</h3>
+		<p class="gocards_description">It can be difficult to keep track of all the jargon when studying a new discipline. Students need a way to methodically categorize, reference, and study new vocabulary and concepts. How might we design a mobile app
+			that empowers people to learn new vocabulary?</p>
+		<br>
+		<h3 class="gocards_categories"> The SOLUTION</h3>
+		<p class="gocards_description"> By creating an app that uses visuals, audio, and videos with reviewing activities that shows progress, rewards, and reminders, it will help students move forward confidently in their field.
+		</p>
+		<br>
+		<h3 class="gocards_categories"> TOOLS</h3>
+		<p class="gocards_description"> Invision (Prototype), Sketch (Wireframes and Visual Design) </p>
+		<br>
+
+	</div>
+	<div class="col-50">
+		<div class="main-carousel" data-flickity='{ "contain": true }'>
+			<div class="gocard_prototype_screen1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_prototype_screen2_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_prototype_screen3_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_prototype_screen4_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_prototype_screen5_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_prototype_screen6_gallery_cell"onclick="onImageClick(this)"></div>
+		</div>
+		<div class="gocards_button_project_container">
+			<a href="https://invis.io/VBPMG7NE38H" class="gocards_button_project">View Prototype</a>
+		</div>
+	</div>
+	<hr class="gocards_divider">
+	</hr>
+
+	<div class="gocards_discovery col-100">
+		<h1 class="gocards_criteria"> DISCOVERY</h1>
+		<p class="gocards_title"> COMPETITIVE ANALYSIS</p>
+		<h4 class="gocards_intro "> Who else is out there?</h4>
+
+		<p class="gocards_details"> I used competitive analysis to better understand the problem and to get me thinking about some solutions that have already been proposed to address the problem. I looked at 3 mobile apps that focus on learning new
+			vocabulary: Magoosh, Quizlet Flashcard, and Memrise.</p>
+		<div class="competitor_icons">
+			<img src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/2800-9fc75879a0adf7f8e59960f4b3837777-medium_jpg.jpg?buster=1415840784" alt="Magoosh" height="75" width="75">
+			<img src="https://assets.pcmag.com/media/images/466302-quizlet-logo.png?width=250&height=250" alt="Quizlet Flashcard" height="75" width="75">
+			<img src="https://www.iosicongallery.com/icons/memrise-learn-languages-2017-05-22/512.png" alt="Quizlet Flashcard" height="75" width="75">
+		</div>
+	</div>
+
+
+	<div class="gocards_overview col-75">
+		<h3 class="gocards_categories "> KEY FINDINGS</h3>
+		<ol class="key_list">
+			<li class="list_items"> All apps focused a lot on the visuals and audio to enhance the learning.</li>
+			<li class="list_items"> By incorporating learning games and rewards, it enables users to learn new words in an addicting and fun way by giving them a sense of accomplishment. </li>
+			<li class="list_items"> The ability to pick your level lets the app not be too challenged or too easy which gives the app more sense of interest to the user and help them learn. </li>
+			<li class="list_items"> Some apps allow users to build their vocabulary by reading and listening games.</li>
+		</ol>
+	</div>
+
+	<hr class="gocards_divider">
+	</hr>
+
+	<div class="gocards_discovery col-100">
+		<p class="gocards_title"> USER INTERVIEW</p>
+		<h4 class="gocards_intro "> Getting to know my users. </h4>
+
+		<p class="gocards_details"> I conducted user interviews to gain insights into the needs and wants of users during their learning process. My research goal was to better understand how people approach learning a new subject and vocabulary. The
+			interviews included students and working professionals.</p>
+	</div>
+
+
+	<div class="gocards_overview col-50">
+		<h3 class="gocards_categories "> OBSERVATIONS</h3>
+		<ol class="key_list">
+			<li class="list_items"> Success for people is due to perseverance and repetition.</li>
+			<li class="list_items"> Difficult to learn something new if users have no interest in it.</li>
+			<li class="list_items"> Studying is an on-going process and it takes time to figure things out. </li>
+		</ol>
+	</div>
+
+	<div class="gocards_overview col-50">
+		<h3 class="gocards_categories "> KEY INSIGHTS</h3>
+		<ol class="key_list">
+			<li class="list_items">Easier to learn with visuals because there are images to reference. Words and visuals have a great way of conveying a meaning across. </li>
+			<li class="list_items">Looks at mobile app like Duolingo and YouTube videos to learn.</li>
+			<li class="list_items"> Users like to engage with visuals and audio and less reading. </li>
+			<li class="list_items"> Users look for apps that are free and easy to use on the go.</li>
+			<li class="list_items">Absorbs more knowledge and less likely to get distracted when visuals are nice to look at. </li>
+		</ol>
+	</div>
+
+
+	<hr class="gocards_divider">
+	</hr>
+
+	<div class="gocards_discovery col-100">
+		<p class="gocards_title"> PERSONAS</p>
+		<p class="gocards_details">Based on my user interviews, I have cumulated all common personality traits and compiled the data and mix them together to create the ideal user who I am designing my app for. My app is aimed at young-savvy
+			professionals. </p>
+		<div class=" col-100">
+			<div class="gocards_persona"onclick="onImageClick(this)">
+			</div>
+		</div>
+	</div>
+
+	<hr class="gocards_divider">
+	</hr>
+
+	<div class="gocards_concepting col-100">
+		<h1 class="gocards_criteria"> CONCEPTING</h1>
+		<p class="gocards_title"> USER JOURNEY</p>
+		<h4 class="gocards_intro "> Shaping Ideas</h4>
+		<p class="gocards_details"> Keeping Whitney in mind, I mapped her user behavioral flow from opening the app to reviewing her study sets. Understanding their decision making and flow within her study experience allowed me to brainstorm the
+			neccessary feature and
+			oportunities required for Whitney to successully navigate through the app.</p>
+		<div class=" col-100">
+			<div class="gocard_journeymap_gallery_cell"onclick="onImageClick(this)">
+			</div>
+		</div>
+	</div>
+
+	<hr class="gocards_divider">
+	</hr>
+
+	<div class="gocards_concepting col-100">
+		<p class="gocards_title"> USER FLOWS </p>
+		<p class="gocards_details"> I created a user flow for the key tasks within the app: onboarding and registration, create custom vocabulary study sets and create flashcards. By going through the flow of the key tasks it helped me think through the
+			core activities and ensure a positive process from users.</p>
+
+		<div class=" col-100">
+			<div class="main-carousel" data-flickity='{ "contain": true }'>
+				<div class="whitney_userflow1_gallery_cell"onclick="onImageClick(this)"></div>
+				<div class="whitney_userflow2_gallery_cell"onclick="onImageClick(this)"></div>
+			</div>
+		</div>
+	</div>
+
+	<hr class="gocards_divider">
+	</hr>
+
+	<div class="gocards_prototyping col-100">
+		<h1 class="gocards_criteria"> PROTOTYPING & TESTING</h1>
+		<p class="gocards_title"> Wireframes</p>
+		<h4 class="gocards_intro "> Bringing the app to life</h4>
+
+		<p class="gocards_details"> A progression of key screens from low to high fidelity wireframes.These iterations were based on feedback received from user testing.</p>
+	</div>
+
+	<div class=" col-100">
+		<div class="main-carousel" data-flickity='{ "contain": true }'>
+			<div class="gocard_lowfidelity1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_lowfidelity2_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_lowfidelity3_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_lowfidelity4_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_lowfidelity5_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_lowfidelity6_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_highfidelity1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_highfidelity2_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_highfidelity3_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_highfidelity4_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_highfidelity5_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_highfidelity6_gallery_cell"onclick="onImageClick(this)"></div>
+
+		</div>
+	</div>
+
+	<hr class="gocards_divider">
+	</hr>
+
+	<div class="gocards_prototyping col-100">
+		<p class="gocards_title"> Usability Testing</p>
+		<h4 class="gocards_intro "> Is it useful and functinal?</h4>
+	</div>
+	<p class="gocards_details">Before perfecting the app to pixel-perfect, I wanted to make sure that users were able to use the navigation and use the basic functionality of the GoCard App. </p>
+
+
+	<div class="gocards_overview col-50">
+		<h3 class="gocards_categories "> GOALS + METHODOLOGY:</h3>
+		<ol class="key_list">
+			<li class="list_items"> The aim of the test is to take a closer look at the main functionalities of the app to determine its overall usefulness. </li>
+			<li class="list_items"> Identify any problems in order to improve these elements prior further testing. </li>
+			<li class="list_items"> I hope to understand my user's needs and gain new clarity regarding the navigation of the current app prototype.</li>
+			<li class="list_items"> The usability tests will be conducted both moderated in-peron. Participants will use my iphone 8+</li>
+		</ol>
+	</div>
+	<div class="gocards_overview col-50">
+		<h3 class="gocards_categories "> USER TESTING TASKS: </h3>
+		<ol class="key_list">
+			<li class="list_items">Create new account.</li>
+			<li class="list_items"> Add new study sets.</li>
+			<li class="list_items"> Create new flashcards to study sets.</li>
+			<li class="list_items"> Review and test new learnings. </li>
+		</ol>
+	</div>
+
+
+	<div class="gocards_prototyping col-100">
+		<div class="table-users">
+			<div class="table_header">Prioritized Issues To Be Addressed</div>
+			<table cellspacing="0">
+				<tr>
+					<th width="100"></th>
+					<th width="250">Issue</th>
+					<th width="200">Severity</th>
+					<th width="450">Suggested Change</th>
+					<th width="450">Evidence</th>
+				</tr>
+
+				<tr>
+					<td><img src="./assets/searching_issue.svg" alt="navigation" /></td>
+					<td>Finding study sets quickly.</td>
+					<td>HIGH</td>
+					<td>Add a search bar so users can access their study sets quicker. </td>
+					<td>Users wanted to find their study set without scrolling down too much. </td>
+				</tr>
+
+				<tr>
+					<td><img src="./assets/clicking_issue.svg" alt="clicks" /></td>
+					<td>Users find that there were too many clicks to get to the next step. </td>
+					<td>HIGH</td>
+					<td>Make the next destination screen to be the same study set so users can easily add flash cards next.</td>
+					<td>After creating a new study set, users prefer to stay in the same folder to add words faster rather then the previous screen. </td>
+				</tr>
+
+				<tr>
+					<td><img src="./assets/audio_issue.jpg" alt="editing" /></td>
+					<td>Missing dictation feature</td>
+					<td>LOW</td>
+					<td>Add a dictation feature.</td>
+					<td>Users mentioned if they also use their voice to enter text. </td>
+				</tr>
+
+				<tr>
+					<td><img src="./assets/bookmarking_issue.svg" alt="location" /></td>
+					<td>Bookmarking</td>
+					<td>HIGH</td>
+					<td>Have a starred feature where users can bookmark the study sets they need to focus more on.</td>
+					<td>Users want the ability to highlight or bookmark study sets that they have the most trouble with. </td>
+				</tr>
+
+				<tr>
+
+					<td><img src="./assets/editing_issue.svg" alt="filter" /></td>
+					<td>Editing</td>
+					<td>MEDIUM</td>
+					<td>Have an edit flashcards option so users can quickly edit as they review </td>
+					<td>Users wanted to search quickly and edit words along the way. </td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<hr class="gocards_divider">
+	</hr>
+
+	<div class="gocards_prototyping col-100">
+		<p class="gocards_title"> Iteration</p>
+		<p class="gocards_details"> Based on the feedback received, I went back to adjust key task flows accordingly. </p>
+	</div>
+
+	<div class=" col-100">
+		<div class="main-carousel" data-flickity='{ "contain": true }'>
+			<div class="gocard_iteration1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_iteration2_gallery_cell"onclick="onImageClick(this)"></div>
+		</div>
+	</div>
+
+	<hr class="gocards_divider">
+	</hr>
+
+	<div class="gocards_prototyping col-100">
+		<p class="gocards_title"> Final UI Design</p>
+		<p class="gocards_details"> Integrating Visual Design Principles, Material Design, accessibility and feedback from fellow designers, I have repolished my designs. </p>
+		<div class="gocards_button_project_container">
+			<a href="https://invis.io/VBPMG7NE38H" class="gocards_button_project">View Prototype</a>
+		</div>
+	</div>
+
+	<div class=" col-100">
+		<div class="main-carousel" data-flickity='{ "contain": true }'>
+			<div class="gocard_final_ui1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_final_ui2_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_final_ui3_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_final_ui4_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="gocard_final_ui5_gallery_cell"onclick="onImageClick(this)"></div>
+		</div>
+	</div>
+
+	<hr class="gocards_divider">
+	</hr>
+
+	<div class="gocards_documentation col-100">
+		<p class="gocards_title"> Key Learnings</p>
+		<p class="gocards_details"> It is important to put yourself in the user’s shoes and understand the needs and problems in order to create successful products. Usability Testing not only helps fix errors, but also creates new solutions to meet the
+			user’s needs.</p>
+	</div>
+
+	<div class="gocards_overview col-75">
+		<h3 class="gocards_categories "> Next Steps:</h3>
+		<ol class="key_list">
+			<li class="list_items"> Development of Gocard extension for browsers and integration in other mobile content browsing apps. </li>
+			<li class="list_items"> Add animation to help the enhance the study process. </li>
+			<li class="list_items"> Conduct A/B testing with the design of the home screen.</li>
+		</ol>
+	</div>
+
+	<script src="javascript/flickity.js"></script>
+
+</body>
+
+</html>

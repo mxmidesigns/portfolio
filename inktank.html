@@ -4,8 +4,9 @@
 
 <head>
 	<title> Mai's Portfolio</title>
-
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
 	<link rel="stylesheet" type="text/css" href="styles/grid.css">
 	<link rel="stylesheet" type="text/css" href="styles/projects.css">
 	<link rel="stylesheet" type="text/css" href="styles/about_me.css">
@@ -13,18 +14,33 @@
 	<link rel="stylesheet" type="text/css" href="styles/inktank.css">
 	<link rel="stylesheet" type="text/css" href="styles/flickity.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="./javascript/navbar.js"></script>
+	<script src="./javascript/imageViewer.js"></script>
 </head>
 
 <body>
-	<div class="topnav">
+	<div class="topnav" id="myTopnav">
+		<button class="hamburger" onclick="toggleNavbar()"><i class="fas fa-bars"></i></button>
+
 		<a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
-		<a href="#project"><i class="fa fa-briefcase"></i> Projects </a>
+
+		<div class="dropdown">
+			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-briefcase"></i> Projects</button>
+			<div class="dropdown-content">
+				<a href="inktank.html">Ink Tank</a>
+				<a href="gocards.html">Go Kards</a>
+			</div>
+		</div>
+
 		<a href="#resume"><i class="fa fa-file"></i> Resume </a>
 		<a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
 		<a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
-	</div>
 
+	</div>
 	<div class="inktank_cover">
+		<p class="inktank_project_title"> INK TANK </p>
+		<p class="inktank_project_subtitle"> Helping you find your next tattoo. </p>
 	</div>
 
 	<div class="inktank_overview col-50">
@@ -33,8 +49,7 @@
 			complexity and emotional element of finding the right design and tattoo artist. How can I help people to find what they are looking for in an effort to reduce regret and empower people to express themselves in a meaningful way?</p>
 		<br>
 		<h3 class="inktank_categories"> The SOLUTION</h3>
-		<p class="inktank_description"> Regular and first timers who are interesting in getting a tattoo need an insightful, easy-to-use app to find the best fitting tattoo artist and also have a reliable way to contact their tattoo artist directly. The
-			app should contain a platform that has high visual content where users can explore tattoo designs by tattoo artists from locally and globally. Users can direct message their tattoo artist to build a closer connection with their tattoo artist. The
+		<p class="inktank_description">  The app should contain a platform that has high visual content where users can explore tattoo designs by tattoo artists from locally and globally. Users can direct message their tattoo artist to build a closer connection with their tattoo artist. The
 			designs can be search by art style and the design structure should be intuitive where users can explore easily. </p>
 		<br>
 		<h3 class="inktank_categories"> TOOLS</h3>
@@ -44,12 +59,12 @@
 	</div>
 	<div class="col-50">
 		<div class="main-carousel" data-flickity='{ "contain": true }'>
-			<div class="prototype_screen1_gallery_cell"></div>
-			<div class="prototype_screen2_gallery_cell"></div>
-			<div class="prototype_screen3_gallery_cell"></div>
-			<div class="prototype_screen4_gallery_cell"></div>
-			<div class="prototype_screen5_gallery_cell"></div>
-			<div class="prototype_screen6_gallery_cell"></div>
+			<div class="prototype_screen1_gallery_cell" onclick="onImageClick(this)"></div>
+			<div class="prototype_screen2_gallery_cell" onclick="onImageClick(this)"></div>
+			<div class="prototype_screen3_gallery_cell" onclick="onImageClick(this)"></div>
+			<div class="prototype_screen4_gallery_cell" onclick="onImageClick(this)"></div>
+			<div class="prototype_screen5_gallery_cell" onclick="onImageClick(this)"></div>
+			<div class="prototype_screen6_gallery_cell" onclick="onImageClick(this)"></div>
 		</div>
 		<div class="inktank_button_project_container">
 			<a href="https://invis.io/SENTE3DP46W" class="inktank_button_project">View Prototype</a>
@@ -64,35 +79,21 @@
 		<h4 class="inktank_intro "> Who else is out there?</h4>
 
 		<p class="inktank_details"> I used competitive analysis to learn about the landscape and learn from other apps' strategies. I looked at 2 types of Tattoo apps: Tattoodo and Tattoo Planet.</p>
+			<div class="competitor_icons">
+				<img src="https://apprecs.org/ios/images/app-icons/256/2a/1057590314.jpg" alt="Tattodo" height="75" width="75">
+				<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/1c/f6/74/1cf674d7-6afc-4151-63cf-c5b2223a3325/source/512x512bb.jpg" alt="Tattoo Planet" height="75" width="75">
+			</div>
 	</div>
 
 
-	<div class="inktank_overview col-50">
+	<div class="inktank_overview col-75">
 		<h3 class="inktank_categories "> KEY FINDINGS</h3>
 		<ol class="key_list">
-			<li class="list_items"> Offer features to book consultations with reputable tattoo studios around the world, with the click of a button.</li>
+			<li class="list_items"> Offer features to book consultations with reputable tattoo studios around the world with the click of a button.</li>
 			<li class="list_items"> With tattoo articles, artist's spotlights, and interviews, users can fully grasps their knowledge on tattoos and find the perfect artist for them.</li>
-			<li class="list_items"> herro </li>
+			<li class="list_items"> Competitors have calendar feature where they can make appointment and messaging platform. </li>
+			<li class="list_items"> Need an advanced search function and scheduling appointment function. </li>
 		</ol>
-	</div>
-
-	<div class="inktank_overview col-50">
-		<h3 class="inktank_categories "> KEY FINDINGS</h3>
-		<ol class="key_list">
-			<li class="list_items"> Offer features to book consultations with reputable tattoo studios around the world, with the click of a button.</li>
-			<li class="list_items"> With tattoo articles, artist's spotlights, and interviews, users can fully grasps their knowledge on tattoos and find the perfect artist for them.</li>
-			<li class="list_items"> herro </li>
-		</ol>
-	</div>
-
-	<div class=" col-100">
-		<div class="main-carousel" data-flickity='{ "contain": true }'>
-			<div class="comp_gallery_cell"></div>
-			<div class="comp_gallery_cell"></div>
-			<div class="comp_gallery_cell"></div>
-			<div class="comp_gallery_cell"></div>
-			<div class="comp_gallery_cell"></div>
-		</div>
 	</div>
 
 	<hr class="inktank_divider">
@@ -109,7 +110,7 @@
 
 
 	<div class="inktank_overview col-50">
-		<h3 class="inktank_categories "> LEARNINGS</h3>
+		<h3 class="inktank_categories "> OBSERVATIONS</h3>
 		<ol class="key_list">
 			<li class="list_items"> There’s always consistent communication with the tattoo artist and clients. Tattoo artists always go back and forth with consultation and revision follow-up appointments.</li>
 			<li class="list_items"> Most users prefer to search for things on Instagram and follow similar artists for awhile before making a decision.</li>
@@ -131,7 +132,7 @@
 
 	<div class="inktank_discovery col-100">
 		<p class="inktank_title"> AFFINITY MAP</p>
-		<div class="affinitymap">
+		<div class="affinitymap"onclick="onImageClick(this)">
 		</div>
 	</div>
 
@@ -143,9 +144,9 @@
 		<p class="inktank_details"> Based on the research found in the discovery period of the project, personas were developed. Designing for Lauren, Natalie, and Danny helped making informed design decisions for end user. </p>
 		<div class=" col-100">
 			<div class="main-carousel" data-flickity='{ "contain": true }'>
-				<div class="persona1_gallery_cell"></div>
-				<div class="persona2_gallery_cell"></div>
-				<div class="persona3_gallery_cell"></div>
+				<div class="persona1_gallery_cell"onclick="onImageClick(this)"></div>
+				<div class="persona2_gallery_cell"onclick="onImageClick(this)"></div>
+				<div class="persona3_gallery_cell"onclick="onImageClick(this)"></div>
 			</div>
 		</div>
 	</div>
@@ -157,12 +158,12 @@
 		<h1 class="inktank_criteria"> CONCEPTING</h1>
 		<p class="inktank_title"> USER JOURNIES</p>
 		<h4 class="inktank_intro "> Shaping Ideas</h4>
-		<p class="inktank_details"> Keeping Lauren and Danny in mind, I mapped their user behavioral flow from ___ to ___. Understanding their decision making and flow within their tattoo experience allowed me to brainstorm the neccessary feature and
+		<p class="inktank_details"> Understanding the decision making and flow within the tattoo experience allowed me to brainstorm the neccessary feature and
 			oportunities required for Lauren and Danny to successully navigate through the app.</p>
 		<div class=" col-100">
 			<div class="main-carousel" data-flickity='{ "contain": true }'>
-				<div class="journeymap1_gallery_cell"></div>
-				<div class="journeymap2_gallery_cell"></div>
+				<div class="journeymap1_gallery_cell"onclick="onImageClick(this)"></div>
+				<div class="journeymap2_gallery_cell"onclick="onImageClick(this)"></div>
 			</div>
 		</div>
 	</div>
@@ -172,7 +173,7 @@
 
 	<div class="inktank_concepting col-100">
 		<p class="inktank_title"> INFORMATION ARCHITECTURE</p>
-		<p class="inktank_details">By analyzing Lauren and Danny's tattoo jounrney, I was then able to narrow down the features via card sorting for the necessary features for Ink Tank to function. I created a site map to organize the pages, information,
+		<p class="inktank_details">By analyzing Lauren and Danny's tattoo journey, I was then able to narrow down the features via card sorting for the necessary features for Ink Tank to function. I created a site map to organize the pages, information,
 			and nagivation of the app. </p>
 		<div class="inktank_overview col-50">
 			<h3 class="inktank_categories "> LEARNINGS</h3>
@@ -193,9 +194,9 @@
 		</div>
 		<div class=" col-100">
 			<div class="main-carousel" data-flickity='{ "contain": true }'>
-				<div class="ia1_gallery_cell"></div>
-				<div class="ia2_gallery_cell"></div>
-				<div class="ia3_gallery_cell"></div>
+				<div class="ia1_gallery_cell"onclick="onImageClick(this)"></div>
+				<div class="ia2_gallery_cell"onclick="onImageClick(this)"></div>
+				<div class="ia3_gallery_cell"onclick="onImageClick(this)"></div>
 			</div>
 		</div>
 	</div>
@@ -210,9 +211,9 @@
 
 		<div class=" col-100">
 			<div class="main-carousel" data-flickity='{ "contain": true }'>
-				<div class="lauren_userflow_gallery_cell"></div>
-				<div class="natalie_userflow_gallery_cell"></div>
-				<div class="danny_userflow_gallery_cell"></div>
+				<div class="lauren_userflow_gallery_cell"onclick="onImageClick(this)"></div>
+				<div class="natalie_userflow_gallery_cell"onclick="onImageClick(this)"></div>
+				<div class="danny_userflow_gallery_cell"onclick="onImageClick(this)"></div>
 			</div>
 		</div>
 	</div>
@@ -230,15 +231,15 @@
 
 	<div class=" col-100">
 		<div class="main-carousel" data-flickity='{ "contain": true }'>
-			<div class="lowfidelity1_gallery_cell"></div>
-			<div class="lowfidelity2_gallery_cell"></div>
-			<div class="lowfidelity3_gallery_cell"></div>
-			<div class="midfidelity1_gallery_cell"></div>
-			<div class="midfidelity2_gallery_cell"></div>
-			<div class="midfidelity3_gallery_cell"></div>
-			<div class="highfidelity1_gallery_cell"></div>
-			<div class="highfidelity2_gallery_cell"></div>
-			<div class="highfidelity3_gallery_cell"></div>
+			<div class="lowfidelity1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="lowfidelity2_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="lowfidelity3_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="midfidelity1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="midfidelity2_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="midfidelity3_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="highfidelity1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="highfidelity2_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="highfidelity3_gallery_cell"onclick="onImageClick(this)"></div>
 		</div>
 	</div>
 
@@ -251,12 +252,81 @@
 	</div>
 	<p class="inktank_details">I tested the wireframes against key tasks with the Invision prototype. This helped me identify user frustrations I needed to address so I could improve my designs. For a detailed look at the Test Script, feel free to
 		explore the complete script: <a href="https://drive.google.com/open?id=1-slSnMashsgVMSjocyViKmn1YA4_bjgx ">here</a></p>
-	<div class=" col-100">
-		<div class="main-carousel" data-flickity='{ "contain": true }'>
-			<div class="user_testing_issues_gallery_cell"></div>
-			<div class="test_plan_gallery_cell"></div>
-			<div class="test_plan_2_gallery_cell"></div>
-			<div class="rainbow_analysis_gallery_cell"></div>
+
+
+	<div class="inktank_overview col-50">
+		<h3 class="inktank_categories "> GOALS + METHODOLOGY:</h3>
+		<ol class="key_list">
+			<li class="list_items"> The aim of the test is to take a closer look at the main functionalities of the app to determine its overall usefulness. </li>
+			<li class="list_items"> Identify any problems in order to improve these elements prior further testing. </li>
+			<li class="list_items"> I hope to understand my user's needs and gain new clarity regarding the navigation of the current app prototype.</li>
+			<li class="list_items"> The usability tests will be conducted both moderated in-peron and moderated remote methods. Participants will use my iphone 8+ and Skype will be used to conduct the test in a moderated remote method.</li>
+		</ol>
+	</div>
+	<div class="inktank_overview col-50">
+		<h3 class="inktank_categories "> USER TESTING TASKS: </h3>
+		<ol class="key_list">
+			<li class="list_items"> Imagine you are exploring through the app and you found a tattoo collection you like and would like to bookmark it.</li>
+			<li class="list_items"> You want to create a new collection for your tattoo ideas.</li>
+			<li class="list_items"> You are searching for tattoo pictures and found one you want to save.</li>
+			<li class="list_items"> You found your tattoo artist and would like to schedule an appointment.</li>
+		</ol>
+	</div>
+
+
+	<div class="inktank_prototyping col-100">
+		<div class="table-users">
+			<div class="table_header">Prioritized Issues To Be Addressed</div>
+			<table cellspacing="0">
+				<tr>
+					<th width="100"></th>
+					<th width="250">Issue</th>
+					<th width="200">Severity</th>
+					<th width="450">Suggested Change</th>
+					<th width="450">Evidence</th>
+				</tr>
+
+				<tr>
+					<td><img src="./assets/issue1.svg" alt="navigation" /></td>
+					<td>‘Tattoos’ and ’Find Artist’ on the bottom navigation are confusing </td>
+					<td>HIGH</td>
+					<td>Consolidate the two search functions. Remove ‘Find Artist’ tab, and combine it with ‘Tattoos’ tab. </td>
+					<td>Users were confused if they had to browse for specific styles of tattoos first and then choose an artist or vice versa. Most users were lost on the navigation and were not sure if the search show the same result views. </td>
+				</tr>
+
+				<tr>
+					<td><img src="./assets/issue2.svg" alt="clicks" /></td>
+					<td>‘Saving Picture’ process has too many clicks</td>
+					<td>HIGH</td>
+					<td>Consolidate and simplify menus and interactions. Add a long hold so users can easily and quickly save pictures instead of going to a new screen.  This will reduce the amount of steps it takes to complete an action.</td>
+					<td>Users mentioned the process had too many taps and wanted to quickly save images without having to open the image in a new screen. </td>
+				</tr>
+
+				<tr>
+					<td><img src="./assets/issue3.svg" alt="editing" /></td>
+					<td>Editing date when choosing appointment date </td>
+					<td>MEDIUM</td>
+					<td>Make the calendar date locked and grayed out and move the ’calendar edit’ icon next to the date. This will help users know where to click.</td>
+					<td> Users were tapping on the date instead of the ‘calendar edit’ icon to change dates. </td>
+				</tr>
+
+				<tr>
+					<td><img src="./assets/issue4.svg" alt="location" /></td>
+					<td>Location of ‘Add New Collection’ </td>
+					<td>HIGH</td>
+					<td>Move ‘Add New Collection’ button closer to the collections.</td>
+					<td>Majority of the users could not find the button to add a new collection or took many random taps to figure out. </td>
+				</tr>
+
+				<tr>
+
+					<td><img src="./assets/issue5.svg" alt="filter" /></td>
+					<td>More Filters. Search engine does not include pricing</td>
+					<td>LOW</td>
+					<td>Include pricing in the search engine </td>
+					<td>Users wanted a way to filter by price when searching for artists. </td>
+				</tr>
+			</table>
 		</div>
 	</div>
 
@@ -270,8 +340,11 @@
 
 	<div class=" col-100">
 		<div class="main-carousel" data-flickity='{ "contain": true }'>
-			<div class="iteration1_gallery_cell"></div>
-			<div class="iteration2_gallery_cell"></div>
+			<div class="iteration1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="iteration2_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="iteration3_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="iteration4_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="iteration5_gallery_cell"onclick="onImageClick(this)"></div>
 		</div>
 	</div>
 
@@ -280,7 +353,7 @@
 
 	<div class="inktank_prototyping col-100">
 		<p class="inktank_title"> Final UI Design</p>
-		<p class="inktank_details"> Integrating Visual Design Principles, iOS Guidelines, accessibility and feedback from fellow designers, I have repolished my designs.  </p>
+		<p class="inktank_details"> Integrating Visual Design Principles, iOS Guidelines, accessibility and feedback from fellow designers, I have repolished my designs. </p>
 		<div class="inktank_button_project_container">
 			<a href="https://invis.io/SENTE3DP46W" class="inktank_button_project">View Prototype</a>
 		</div>
@@ -288,11 +361,11 @@
 
 	<div class=" col-100">
 		<div class="main-carousel" data-flickity='{ "contain": true }'>
-			<div class="final_ui1_gallery_cell"></div>
-			<div class="final_ui2_gallery_cell"></div>
-			<div class="final_ui3_gallery_cell"></div>
-			<div class="final_ui4_gallery_cell"></div>
-			<div class="final_ui5_gallery_cell"></div>
+			<div class="final_ui1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="final_ui2_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="final_ui3_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="final_ui4_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="final_ui5_gallery_cell"onclick="onImageClick(this)"></div>
 		</div>
 	</div>
 
@@ -306,9 +379,37 @@
 
 	<div class=" col-100">
 		<div class="main-carousel" data-flickity='{ "contain": true }'>
-			<div class="iteration1_gallery_cell"></div>
-			<div class="iteration2_gallery_cell"></div>
+			<div class="color_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="typography_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="bars_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="button_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="alert_gallery_cell" onclick="onImageClick(this)"></div>
+			<div class="pickers_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="snack_bar_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="grid_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="icons_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="imagery_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="tone_gallery_cell"onclick="onImageClick(this)"></div>
 		</div>
+	</div>
+
+	<hr class="inktank_divider">
+	</hr>
+
+	<div class="inktank_documentation col-100">
+		<p class="inktank_title"> Key Learnings</p>
+		<p class="inktank_details"> Sometimes a feature that seemed innovative on a design stand point, but reality is that it might not translate well with the user understanding the feature. Designers have to learn to let go of the feature during the
+			project. </p>
+	</div>
+
+	<div class="inktank_overview col-75">
+		<h3 class="inktank_categories "> Next Steps:</h3>
+		<ol class="key_list">
+			<li class="list_items"> I’d like to further test the home screen to see what other needs/wants users have. </li>
+			<li class="list_items"> Include animation and see how users react to it. </li>
+			<li class="list_items"> I’d like to further test the search screen to see if there are additional confusion over the search function.</li>
+			<li class="list_items"> Design user onboarding screens to familiarize them with features within the app.</li>
+		</ol>
 	</div>
 
 	<script src="javascript/flickity.js"></script>

@@ -6,7 +6,7 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group">
-            <circle id="Oval" fill="#F67280" cx="147.5" cy="147.5" r="147.5"></circle>
+            <circle id="Oval" fill="#9FD3E3" cx="147.5" cy="147.5" r="147.5"></circle>
             <rect id="Rectangle" fill="#FFFFFF" x="50" y="80" width="196" height="134" rx="8"></rect>
             <path d="M50,87.9916525 C50,83.5779847 53.5904405,80 58.0027447,80 L237.997255,80 C242.417049,80 246,83.5800761 246,87.9916525 L246,96.0083475 C246,100.422015 246,104 246,104 L246,104 L90.1281747,104 L50.1201691,104 C50.0538015,104 50,100.419924 50,96.0083475 L50,87.9916525 Z" id="Rectangle" fill="#D3D3D3"></path>
             <circle id="Oval-2" fill="#EF6B6B" cx="60" cy="92" r="5"></circle>

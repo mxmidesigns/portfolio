@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6">
+            <g id="Group-2" fill="#FF4081">
+                <circle id="Oval" cx="100" cy="100" r="100"></circle>
+            </g>
+            <g id="Group-5" transform="translate(66.000000, 44.000000)" fill="#FFFFFF">
+                <g id="Group-4" style="mix-blend-mode: color;" transform="translate(7.000000, 2.000000)">
+                    <rect id="Rectangle-2" x="10" y="0" width="47" height="82"></rect>
+                    <g id="Group-3" transform="translate(0.000000, 75.000000)">
+                        <path d="M0.0176946138,11.4201069 L5.46822485,4.75916989 L24.8599203,13.9243856 C30.9202116,16.7886983 40.2247228,15.9189647 45.6447692,11.9798616 L61.9831196,0.105710988 L67.0467425,5.81523655 L46.1980188,21.1430943 C41.7521988,24.4116348 34.0131314,25.3651161 28.8934995,23.2650309 L0.0176946138,11.4201069 Z" id="Path-2"></path>
+                        <rect id="Rectangle-3" x="31" y="21" width="10" height="15"></rect>
+                    </g>
+                </g>
+                <g id="Group-4">
+                    <rect id="Rectangle-2" x="10" y="0" width="47" height="82"></rect>
+                    <g id="Group-3" transform="translate(0.000000, 75.000000)">
+                        <path d="M0.0176946138,11.4201069 L5.46822485,4.75916989 L24.8599203,13.9243856 C30.9202116,16.7886983 40.2247228,15.9189647 45.6447692,11.9798616 L61.9831196,0.105710988 L67.0467425,5.81523655 L46.1980188,21.1430943 C41.7521988,24.4116348 34.0131314,25.3651161 28.8934995,23.2650309 L0.0176946138,11.4201069 Z" id="Path-2"></path>
+                        <rect id="Rectangle-3" x="31" y="21" width="10" height="15"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

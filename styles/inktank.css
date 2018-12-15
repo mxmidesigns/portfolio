@@ -1,19 +1,36 @@
 .inktank_cover {
     width: 100%;
     height: 600px;
-    background: url("./../assets/inktank_cover.jpg") no-repeat;
+    background: url("./../assets/inktank_header_cover.jpg") no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.inktank_project_title {
+    text-align: center;
+    font-size: 90px;
+    padding-top: 200px;
+    color: white;
+}
+
+.inktank_project_subtitle {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    padding-top: 20px;
+    color: white;
 }
 
 .inktank_button_project_container {
     text-align: center;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .inktank_button_project {
     margin-top: 25px;
-    background-color: #FF43B6;
+    margin-bottom: 25px;
+    background-color: #0074D9;
     border: none;
     padding: 15px 32px;
     color: white;
@@ -26,28 +43,28 @@
 }
 
 .inktank_overview {
-	padding: 0 32px;
-	overflow: hidden;
+    padding: 0 32px;
+    overflow: hidden;
 }
 
-.inktank_discovery{
-	overflow: hidden;
+.inktank_discovery {
+    overflow: hidden;
 }
 
-.inktank_concepting{
-	overflow: hidden;
+.inktank_concepting {
+    overflow: hidden;
 }
 
-.inktank_prototyping{
-	overflow: hidden;
+.inktank_prototyping {
+    overflow: hidden;
 }
 
-.inktank_documentation{
-	overflow: hidden;
+.inktank_documentation {
+    overflow: hidden;
 }
 
 .inktank_categories {
-    color: #FF43B6;
+    color: #0074D9;
     padding-top: 25px;
     padding-bottom: 20px;
 }
@@ -64,15 +81,16 @@
 
 .inktank_intro {
     text-align: center;
-    color: #FF43B6;
-    padding-bottom: 30px;
+    color: #0074D9;
+    padding-bottom: 10px;
 }
 
 .inktank_title {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-	padding-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .inktank_details {
@@ -84,68 +102,76 @@
 }
 
 .key_list {
-	padding-left: 32px;
+    padding-left: 32px;
 }
 
 .list_items {
     margin-bottom: 16px;
+    line-height: 2;
+}
+
+.issue_items {
+    padding-left: 32px;
+    margin-bottom: 16px;
+    color: #0074D9;
+    font-weight: bold;
 }
 
 .main-carousel {
     padding-top: 50px;
     padding-bottom: 50px;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .gallery {
     background: #EEE;
 }
 
-.prototype_screen1_gallery_cell{
-	width: 100%;
+.prototype_screen1_gallery_cell {
+    width: 100%;
     height: 600px;
     counter-increment: gallery-cell;
-    background: url("./../assets/prototype_screen1.jpg") no-repeat center;
+    background: url("./../assets/prototype_screen1.png") no-repeat center;
     background-size: 320px 600px;
 }
 
-.prototype_screen2_gallery_cell{
-	width: 100%;
+.prototype_screen2_gallery_cell {
+    width: 100%;
     height: 600px;
     counter-increment: gallery-cell;
-    background: url("./../assets/prototype_screen2.jpg") no-repeat center;
+    background: url("./../assets/prototype_screen2.png") no-repeat center;
     background-size: 300px 600px;
 }
 
-.prototype_screen3_gallery_cell{
-	width: 100%;
+.prototype_screen3_gallery_cell {
+    width: 100%;
     height: 600px;
     counter-increment: gallery-cell;
-    background: url("./../assets/prototype_screen3.jpg") no-repeat center;
+    background: url("./../assets/prototype_screen3.png") no-repeat center;
     background-size: 300px 600px;
 }
 
-.prototype_screen4_gallery_cell{
-	width: 100%;
+.prototype_screen4_gallery_cell {
+    width: 100%;
     height: 600px;
     counter-increment: gallery-cell;
-    background: url("./../assets/prototype_screen4.jpg") no-repeat center;
+    background: url("./../assets/prototype_screen4.png") no-repeat center;
     background-size: 300px 600px;
 }
 
-.prototype_screen5_gallery_cell{
-	width: 100%;
+.prototype_screen5_gallery_cell {
+    width: 100%;
     height: 600px;
     counter-increment: gallery-cell;
-    background: url("./../assets/prototype_screen5.jpg") no-repeat center;
+    background: url("./../assets/prototype_screen5.png") no-repeat center;
     background-size: 300px 600px;
 }
 
-.prototype_screen6_gallery_cell{
-	width: 100%;
+.prototype_screen6_gallery_cell {
+    width: 100%;
     height: 600px;
     counter-increment: gallery-cell;
-    background: url("./../assets/prototype_screen6.jpg") no-repeat center;
+    background: url("./../assets/prototype_screen6.png") no-repeat center;
     background-size: 300px 600px;
 }
 
@@ -158,11 +184,16 @@
 }
 
 .comp_gallery_cell {
-	width: 100%;
+    width: 100%;
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/tattoodo_swot.jpg") no-repeat center;
     background-size: 100% 100%;
+}
+
+.competitor_icons {
+    text-align: center;
+    word-spacing: 30px;
 }
 
 .persona1_gallery_cell {
@@ -170,7 +201,7 @@
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/lauren_persona1.jpg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 850px 500px;
 }
 
 .persona2_gallery_cell {
@@ -178,7 +209,7 @@
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/natalie_persona2.jpg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 850px 500px;
 }
 
 .persona3_gallery_cell {
@@ -186,234 +217,319 @@
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/danny_persona3.jpg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 850px 500px;
 }
 
-.journeymap1_gallery_cell{
-	width: 100%;
+.journeymap1_gallery_cell {
+    width: 100%;
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/lauren_journeymap.jpg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 850px 500px;
 }
 
-.journeymap2_gallery_cell{
-	width: 100%;
+.journeymap2_gallery_cell {
+    width: 100%;
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/danny_journeymap.jpg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 850px 500px;
 }
 
-.ia1_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/inktank_sitemap.jpg") no-repeat center;
-	background-size: 100% 100%;
+.affinitymap {
+    width: 100%;
+    height: 600px;
+    background: url("./../assets/inktank_affinitymap1.svg") no-repeat center;
+    background-size: 800px 600px;
+    margin: 0 auto;
 }
 
-.ia2_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/card_sorting.jpg") no-repeat center;
-	background-size: 100% 100%;
+.ia1_gallery_cell {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_sitemap.jpg") no-repeat center;
+    background-size: 850px 500px;
 }
 
-.ia3_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/similarity_matrix.jpg") no-repeat center;
-	background-size: 100% 100%;
+.ia2_gallery_cell {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/card_sorting.jpg") no-repeat center;
+    background-size: 850px 500px;
 }
 
-
-.lauren_userflow_gallery_cell{
-	width: 100%;
-	height: 1000px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/lauren_user_flow.jpg") no-repeat center;
-	background-size: 100% 100%;
+.ia3_gallery_cell {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/similarity_matrix.jpg") no-repeat center;
+    background-size: 550px 500px;
 }
 
-.natalie_userflow_gallery_cell{
-	width: 100%;
-	height: 1000px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/natalie_user_flow.jpg") no-repeat center;
-	background-size: 100% 100%;
+.lauren_userflow_gallery_cell {
+    width: 100%;
+    height: 1000px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/lauren_user_flow.jpg") no-repeat center;
+    background-size: 900px 1000px;
 }
 
-.danny_userflow_gallery_cell{
-	width: 100%;
-	height: 900px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/danny_user_flow.jpg") no-repeat center;
-	background-size: 100% 100%;
+.natalie_userflow_gallery_cell {
+    width: 100%;
+    height: 1000px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/natalie_user_flow.jpg") no-repeat center;
+    background-size: 900px 1000px;
 }
 
-
-
-.lowfidelity1_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/lowfidelity1.jpg") no-repeat center;
-	background-size: 100% 100%;
+.danny_userflow_gallery_cell {
+    width: 100%;
+    height: 900px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/danny_user_flow.jpg") no-repeat center;
+    background-size: 1000px 900px;
 }
 
-.lowfidelity2_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/lowfidelity2.jpg") no-repeat center;
-	background-size: 100% 100%;
+.lowfidelity1_gallery_cell {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/lowfidelity1.jpg") no-repeat center;
+    background-size: 1000px 500px;
 }
 
-.lowfidelity3_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/lowfidelity3.jpg") no-repeat center;
-	background-size: 100% 100%;
+.lowfidelity2_gallery_cell {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/lowfidelity2.jpg") no-repeat center;
+    background-size: 1100px 500px;
 }
 
-.midfidelity1_gallery_cell{
-	width: 100%;
-	height: 600px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/midfidelity1.jpg") no-repeat center;
-	background-size: 100% 100%;
+.lowfidelity3_gallery_cell {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/lowfidelity3.jpg") no-repeat center;
+    background-size: 1100px 500px;
 }
 
-.midfidelity2_gallery_cell{
-	width: 100%;
-	height: 600px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/midfidelity2.jpg") no-repeat center;
-	background-size: 100% 100%;
+.midfidelity1_gallery_cell {
+    width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/midfidelity1.jpg") no-repeat center;
+    background-size: 1100px 600px;
 }
 
-.midfidelity3_gallery_cell{
-	width: 100%;
-	height: 600px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/midfidelity3.jpg") no-repeat center;
-	background-size: 100% 100%;
+.midfidelity2_gallery_cell {
+    width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/midfidelity2.jpg") no-repeat center;
+    background-size: 1100px 600px;
 }
 
-.highfidelity1_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/highfidelity1.jpg") no-repeat center;
-	background-size: 100% 100%;
+.midfidelity3_gallery_cell {
+    width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/midfidelity3.jpg") no-repeat center;
+    background-size: 1100px 600px;
 }
 
-.highfidelity2_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/highfidelity2.jpg") no-repeat center;
-	background-size: 100% 100%;
+.highfidelity1_gallery_cell {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/highfidelity1.jpg") no-repeat center;
+    background-size: 1000px 500px;
 }
 
-.highfidelity3_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/highfidelity3.jpg") no-repeat center;
-	background-size: 100% 100%;
+.highfidelity2_gallery_cell {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/highfidelity2.jpg") no-repeat center;
+    background-size: 1200px 500px;
 }
 
-.user_testing_issues_gallery_cell{
-	width: 100%;
-	height: 800px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/user_testing_issues.jpg") no-repeat center;
-	background-size: 100% 100%;
+.highfidelity3_gallery_cell {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/highfidelity3.jpg") no-repeat center;
+    background-size: 1200px 500px;
 }
 
-.test_plan_gallery_cell{
-	width: 100%;
-	height: 800px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/test_plan.jpg") no-repeat center;
-	background-size: 100% 100%;
+.iteration1_gallery_cell {
+    width: 100%;
+    height: 550px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_iteration1.jpg") no-repeat center;
+    background-size: 1000px 550px;
 }
 
-.test_plan_2_gallery_cell{
-	width: 100%;
-	height: 800px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/test_plan2.jpg") no-repeat center;
-	background-size: 100% 100%;
+.iteration2_gallery_cell {
+    width: 100%;
+    height: 550px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_iteration2.jpg") no-repeat center;
+    background-size: 1000px 550px;
 }
 
-.rainbow_analysis_gallery_cell{
-	width: 100%;
-	height: 800px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/rainbow_analysis.jpg") no-repeat center;
-	background-size: 100% 100%;
+.iteration3_gallery_cell {
+    width: 100%;
+    height: 550px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_iteration3.jpg") no-repeat center;
+    background-size: 1000px 550px;
 }
 
-.iteration1_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/iteration1.jpg") no-repeat center;
-	background-size: 100% 100%;
+.iteration4_gallery_cell {
+    width: 100%;
+    height: 550px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_iteration4.jpg") no-repeat center;
+    background-size: 1000px 550px;
 }
 
-.iteration2_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/iteration2.jpg") no-repeat center;
-	background-size: 100% 100%;
+.iteration5_gallery_cell {
+    width: 100%;
+    height: 550px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_iteration5.jpg") no-repeat center;
+    background-size: 1000px 550px;
 }
 
-.final_ui1_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/final_ui1.jpg") no-repeat center;
-	background-size: 100% 100%;
+.final_ui1_gallery_cell {
+    width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_finalui1.jpg") no-repeat center;
+    background-size: 1100px 600px;
 }
 
-.final_ui2_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/final_ui2.jpg") no-repeat center;
-	background-size: 100% 100%;
+.final_ui2_gallery_cell {
+    width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_finalui2.jpg") no-repeat center;
+    background-size: 1100px 600px;
 }
 
-.final_ui3_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/final_ui3.jpg") no-repeat center;
-	background-size: 100% 100%;
+.final_ui3_gallery_cell {
+    width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_finalui3.jpg") no-repeat center;
+    background-size: 1100px 600px;
 }
 
-.final_ui4_gallery_cell{
-	width: 100%;
-	height: 400px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/final_ui4.jpg") no-repeat center;
-	background-size: 100% 100%;
+.final_ui4_gallery_cell {
+    width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_finalui4.jpg") no-repeat center;
+    background-size: 1100px 600px;
 }
 
-.final_ui5_gallery_cell{
-	width: 100%;
-	height: 400px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/final_ui5.jpg") no-repeat center;
-	background-size: 100% 100%;
+.final_ui5_gallery_cell {
+    width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/inktank_finalui5.jpg") no-repeat center;
+    background-size: 1100px 600px;
+}
+
+.color_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/color.jpg") no-repeat center;
+    background-size: 950px 800px;
+}
+
+.typography_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/typography.jpg") no-repeat center;
+    background-size: 950px 800px;
+}
+
+.bars_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/bars.jpg") no-repeat center;
+    background-size: 950px 800px;
+}
+
+.button_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/button.jpg") no-repeat center;
+    background-size: 950px 800px;
+}
+
+.alert_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/alert.jpg") no-repeat center;
+    background-size: 950px 800px;
+}
+
+.pickers_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/pickers.jpg") no-repeat center;
+    background-size: 950px 800px;
+}
+
+.snack_bar_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/snack_bar.jpg") no-repeat center;
+    background-size: 950px 800px;
+}
+
+.grid_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/grid.jpg") no-repeat center;
+    background-size: 950px 800px;
+}
+
+.icons_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/icons.jpg") no-repeat center;
+    background-size: 950px 800px;
+}
+
+.imagery_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/imagery.jpg") no-repeat center;
+    background-size: 950px 800px;
+}
+
+.tone_gallery_cell {
+    width: 100%;
+    height: 800px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/tone.jpg") no-repeat center;
+    background-size: 950px 800px;
 }
 
 /* cell number */
@@ -427,65 +543,606 @@
 }
 
 .inktank_divider {
-    height: 1px;
-    width: 100%;
+    height: 2px;
+    width: 80%;
     display: block;
-    background-color: grey;
+    background-color: #f2f2f2;
+    padding: 0 16px;
+    margin: 8px auto;
 }
 
-.affinitymap {
+.table_header {
+    background-color: #0074D9;
+    color: white;
+    font-size: 1.5em;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: #daeff1;
+    height: 50px;
+}
+
+table td {
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 25px;
+    line-height: 1.5;
+}
+
+table td, table th {
+    padding: 10px;
+}
+
+.table_icons {
+    height: 40px;
+    width: 40px;
+    background-position: center;
+}
+
+table tr:nth-child(2n) {
+    background-color: white;
+}
+
+table tr:nth-child(2n+1) {
+    background-color: #edf7f8;
+}
+
+.table-users {
+    border: 1px solid #327a81;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+    max-width: calc(100% - 2em);
+    margin: 1em auto;
+    overflow: hidden;
     width: 800px;
-    height: 600px;
-    background: url("./../assets/affinitymap.svg") no-repeat;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.main-carousel .prototype_screen1_gallery_cell.is-selected:hover {
+    opacity: 0.5;
+}
+
+.main-carousel .prototype_screen2_gallery_cell.is-selected:hover {
+    opacity: 0.5;
+}
+
+.main-carousel .prototype_screen3_gallery_cell.is-selected:hover {
+    opacity: 0.5;
+}
+
+.main-carousel .prototype_screen4_gallery_cell.is-selected:hover {
+    opacity: 0.5;
+}
+
+.main-carousel .prototype_screen5_gallery_cell.is-selected:hover {
+    opacity: 0.5;
+}
+
+.main-carousel .prototype_screen6_gallery_cell.is-selected:hover {
+    opacity: 0.5;
+}
+
+.affinitymap:hover {
+    opacity: 0.5;
+}
+
+.persona1_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.persona2_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.persona3_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.journeymap1_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.journeymap2_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.ia1_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.ia2_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.ia3_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.lauren_userflow_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.natalie_userflow_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.danny_userflow_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.lowfidelity1_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.lowfidelity2_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.lowfidelity3_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.midfidelity1_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.midfidelity2_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.midfidelity3_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.highfidelity1_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.highfidelity2_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.highfidelity3_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.iteration1_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.iteration2_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+
+.iteration2_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.iteration3_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.iteration4_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.iteration5_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.final_ui1_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.final_ui2_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.final_ui3_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.final_ui4_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.final_ui5_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.color_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.typography_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.bars_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.button_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.alert_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.pickers_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.snack_bar_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.grid_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.icons_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.imagery_gallery_cell:hover {
+    opacity: 0.5;
+}
+
+.tone_gallery_cell:hover {
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 1080px) {
-	p.inktank_description {
-		margin-left: 0;
-		width: 100%;
-	}
-	p.inktank_details {
-		margin-left: 0;
-		margin-right: 0;
-		padding-left: 8px;
-		padding-right: 8px;
-		width: 100%;
+    p.inktank_description {
+        margin-left: 0;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    p.inktank_details {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .key_list {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .prototype_screen1_gallery_cell {
+        background-size: 350px 700px;
+        height: 700px;
+    }
+
+    .prototype_screen2_gallery_cell {
+        background-size: 350px 700px;
+        height: 700px;
+    }
+
+    .prototype_screen3_gallery_cell {
+        background-size: 350px 700px;
+        height: 700px;
+    }
+
+    .prototype_screen4_gallery_cell {
+        background-size: 350px 700px;
+        height: 700px;
+    }
+
+    .prototype_screen5_gallery_cell {
+        background-size: 350px 700px;
+        height: 700px;
+    }
+
+    .prototype_screen6_gallery_cell {
+        background-size: 350px 700px;
+        height: 700px;
+    }
+
+    .inktank_categories {
+        text-align: center;
+    }
+
+    .inktank_cover {
+        height: 600px;
+    }
+
+    .inktank_project_title {
+        font-size: 60px;
+        padding-top: 200px;
+    }
+
+    .inktank_project_subtitle {
+        font-size: 25px;
+        padding: 20px 5px 5px;
+    }
+
+    .persona1_gallery_cell {
+        height: 250px;
+        background-size: 350px 250px;
+    }
+
+    .persona2_gallery_cell {
+        height: 250px;
+        background-size: 350px 250px;
+    }
+
+    .persona3_gallery_cell {
+        height: 250px;
+        background-size: 350px 250px;
+    }
+
+    .journeymap1_gallery_cell {
+        height: 250px;
+        background-size: 350px 250px;
+    }
+
+    .journeymap2_gallery_cell {
+        height: 250px;
+        background-size: 350px 250px;
+    }
+
+    .ia1_gallery_cell {
+        height: 250px;
+        background-size: 350px 250px;
+    }
+
+    .ia2_gallery_cell {
+        height: 250px;
+        background-size: 350px 250px;
+    }
+
+    .ia3_gallery_cell {
+        height: 250px;
+        background-size: 300px 250px;
+    }
+
+    .affinitymap {
+        height: 450px;
+        background-size: 350px 450px;
+    }
+
+    .lauren_userflow_gallery_cell {
+        height: 500px;
+        background-size: 350px 500px;
+    }
+
+    .natalie_userflow_gallery_cell {
+        height: 500px;
+        background-size: 350px 500px;
+    }
+
+    .danny_userflow_gallery_cell {
+        height: 400px;
+        background-size: 350px 400px;
+    }
+
+    .lowfidelity1_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
+
+    .lowfidelity2_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
+
+    .lowfidelity3_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
+
+    .midfidelity1_gallery_cell {
+        height: 200px;
+        background-size: 400px 200px;
+    }
+
+    .midfidelity2_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
+
+    .midfidelity3_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
+
+    .highfidelity1_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
+
+    .highfidelity2_gallery_cell {
+        height: 150px;
+        background-size: 350px 150px;
+    }
+
+    .highfidelity3_gallery_cell {
+        height: 150px;
+        background-size: 350px 150px;
+    }
+
+    .iteration1_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
+
+    .iteration2_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
+
+	.iteration3_gallery_cell {
+		height: 200px;
+		background-size: 350px 200px;
 	}
 
-	.prototype_screen1_gallery_cell{
-	    background-size: 320px 600px;
+	.iteration4_gallery_cell {
+		height: 200px;
+		background-size: 350px 200px;
 	}
 
-	.prototype_screen2_gallery_cell{
-	    background-size: 300px 600px;
+	.iteration5_gallery_cell {
+		height: 200px;
+		background-size: 350px 200px;
 	}
 
-	.prototype_screen3_gallery_cell{
-	    background-size: 300px 600px;
-	}
+    .final_ui1_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
 
-	.prototype_screen4_gallery_cell{
-	    background-size: 300px 600px;
-	}
+    .final_ui2_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
 
-	.prototype_screen5_gallery_cell{
-	    background-size: 300px 600px;
-	}
+    .final_ui3_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
 
-	.prototype_screen6_gallery_cell{
-	    background-size: 300px 600px;
-	}
+    .final_ui4_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
 
-	.inktank_button_project {
-	    font-size: 32px;
-	}
+    .final_ui5_gallery_cell {
+        height: 200px;
+        background-size: 350px 200px;
+    }
 
-	.inktank_categories {
-	   text-align: center;
-	}
+    .color_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
 
+    .typography_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
+
+    .bars_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
+
+    .button_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
+
+    .alert_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
+
+    .pickers_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
+
+    .snack_bar_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
+
+    .grid_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
+
+    .icons_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
+
+    .imagery_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
+
+    .tone_gallery_cell {
+        height: 300px;
+        background-size: 350px 300px;
+    }
+
+    table, tr, td {
+        display: block;
+    }
+
+    td:first-child {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 100px;
+    }
+
+    td:not(:first-child) {
+        clear: both;
+        margin-left: 15px;
+        padding: 4px 20px 4px 100px;
+        position: relative;
+        text-align: left;
+    }
+
+    td:not(:first-child):before {
+        color: #0074D9;
+        content: '';
+        display: block;
+        left: 0;
+        position: absolute;
+    }
+
+    td:nth-child(2):before {
+        content: 'Issue:';
+        width: 200px;
+    }
+
+    td:nth-child(3):before {
+        content: 'Severity:';
+        width: 200px;
+    }
+
+    td:nth-child(4):before {
+        content: 'Change:';
+        width: 200px;
+    }
+
+    td:nth-child(5):before {
+        content: 'Evidence:';
+        width: 200px;
+    }
+
+    tr {
+        padding: 10px 0;
+        position: relative;
+    }
+
+    tr:first-child {
+        display: none;
+    }
+
+    img {
+        height: 0px;
+        width: 0px;
+    }
+
+    .table_header {
+        font-size: 15px;
+    }
 }
