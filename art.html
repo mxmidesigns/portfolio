@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> Mai's Portfolio</title>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta name="copyright" content="Maihan portfolio"/>
+	<meta name="description" content="Maihan Nguyen UX Portfolio "/>
+	<meta name="keywords" content="Mai, UX Portfolio, UX Designer" />
+	<meta name="robots" content="index, follow"/>
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="styles/grid.css">
+	<link rel="stylesheet" type="text/css" href="styles/projects.css">
+	<link rel="stylesheet" type="text/css" href="styles/about_me.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact.css">
+	<link rel="stylesheet" type="text/css" href="styles/inktank.css">
+	<link rel="stylesheet" type="text/css" href="styles/gocards.css">
+	<link rel="stylesheet" type="text/css" href="styles/art.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="./javascript/navbar.js"></script>
+	<script src="./javascript/imageViewer.js"></script>
+
+	<!-- start Mixpanel --><script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+	0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+	for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+	MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+	mixpanel.init("e24080f7359eedd12398809feba82b78");</script><!-- end Mixpanel -->
+
+</head>
+
+<body>
+	<div class="topnav" id="myTopnav">
+		<button class="hamburger" onclick="toggleNavbar()"><i class="fas fa-bars"></i></button>
+
+		<a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
+
+		<div class="dropdown">
+			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-file"></i> Projects</button>
+			<div class="dropdown-content">
+				<a href="fitted.html">Fitted</a>
+				<a href="gocards.html">GoCards</a>
+				<a href="ign.html">IGN</a>
+				<a href="inktank.html">Ink Tank</a>
+			</div>
+		</div>
+
+		<a href="art.html"><i class="fa fa-palette"></i> Art </a>
+		<a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
+		<a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
+
+	</div>
+
+		<div class="header col-100">
+				<p class="art_intro">ART</p>
+				<p class="art_description">Vector drawings, logos, and animations</p>
+		</div>
+
+		<div id="art" class="art_container col-100">
+			<div class="art col-25">
+				<div class="art_drawing1" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing2" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing3" onclick="onImageClick(this)"> </div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing4" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing5" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing6" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing7" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing8" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing9" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing10" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing11" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing12" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing13" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing14" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing15" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing16" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing17" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing18" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing19" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing20" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing21" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing22" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing23" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing24" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing25" onclick="onImageClick(this)"></div>
+			</div>
+		</div>
+
+		<div class="footer">
+		  <p class="footer_description">Copyright © Mai Nguyen. All rights reserved.</p>
+		</div>
+
+
+
+
+
+
+		<script>
+			function guidGenerator() {
+				var S4 = function() {
+				   return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+				};
+				return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+			}
+			var mixpanelID = window.localStorage.getItem("mixpanel_id");
+			if (!mixpanelID) {
+				mixpanelID = guidGenerator();
+				window.localStorage.setItem('mixpanel_id', mixpanelID);
+			}
+			mixpanel.identify(mixpanelID);
+			mixpanel.people.set({
+			    "$last_login": new Date(),
+			});
+			mixpanel.track("Art Viewed");
+		</script>
+
+	</body>
+
+	</html>

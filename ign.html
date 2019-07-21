@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> Mai's Portfolio</title>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta name="copyright" content="Maihan portfolio"/>
+	<meta name="description" content="Maihan Nguyen UX Portfolio "/>
+	<meta name="keywords" content="Mai, UX Portfolio, UX Designer" />
+	<meta name="robots" content="index, nofollow"/>
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="styles/grid.css">
+	<link rel="stylesheet" type="text/css" href="styles/projects.css">
+	<link rel="stylesheet" type="text/css" href="styles/about_me.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact.css">
+	<link rel="stylesheet" type="text/css" href="styles/flickity.css">
+	<link rel="stylesheet" type="text/css" href="styles/ign.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="./javascript/navbar.js"></script>
+	<script src="./javascript/imageViewer.js"></script>
+
+	<!-- start Mixpanel --><script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+	0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+	for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+	MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+	mixpanel.init("e24080f7359eedd12398809feba82b78");</script><!-- end Mixpanel -->
+
+</head>
+
+<body>
+	<div class="topnav" id="myTopnav">
+		<button class="hamburger" onclick="toggleNavbar()"><i class="fas fa-bars"></i></button>
+
+		<a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
+
+		<div class="dropdown">
+			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-file"></i> Projects</button>
+			<div class="dropdown-content">
+				<a href="fitted.html">Fitted</a>
+				<a href="gocards.html">GoCards</a>
+				<a href="ign.html">IGN</a>
+				<a href="inktank.html">Ink Tank</a>
+			</div>
+		</div>
+
+		<a href="art.html"><i class="fa fa-palette"></i> Art </a>
+		<a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
+		<a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
+
+	</div>
+	<div class="ign_cover">
+		<img class="ign_project_title" src="./assets/ign_logo.png" alt="IGN">
+		<p class="ign_project_subtitle"> Recreating IGN's Esport Page to help users stay up to date with esport news and events. </p>
+	</div>
+
+	<div class="ign_overview col-100">
+		<div class="ign_beforeafter_gallery_cell"onclick="onImageClick(this)"></div> <br>
+	</div>
+
+
+	<hr class="ign_divider">
+	</hr>
+
+
+	<div class="ign_prototyping col-100">
+		<h1 class="ign_criteria"> THE DESIGN PROCESS </h1>
+		<p class="ign_title"> THE PROBLEM</p>
+
+		<p class="ign_details"> The arrangement and styling of the headlines, text, and images on the page are very cluttered. The text information on the side makes the UI distracting and hard to navigate. Hierarchy of information is not very strong and balanced. For example for the main Highlights, some images are 100% vs 50% vs 30% and that section only takes up 80% of the screen, while the other 20% are latest news and ads.</p>
+	</div>
+
+	<div class=" col-100">
+			<div class="ign_esports_page2_gallery_cell"onclick="onImageClick(this)"></div> <br>
+		</div>
+
+	<hr class="ign_divider">
+	</hr>
+
+	<div class="ign_prototyping col-100">
+		<p class="ign_details"> The mobile version of the esport page is more focused and clean and my goal is to carry that over for desktop as well. </p>
+	</div>
+
+	<div class=" col-100">
+			<div class="ign_mobile_gallery_cell"onclick="onImageClick(this)"></div>
+	</div>
+
+	<hr class="ign_divider">
+	</hr>
+
+	<div class="ign_prototyping col-100">
+		<p class="ign_details"> Schedule tab is confusing because it lists 3 cards on the side with dates. It was not clear at first if they were related to the schedule. I believe the UI might also look odd if there are no upcoming events since it will lead to too much space and the user may perceive the design as bland.   </p>
+	</div>
+
+	<div class=" col-100">
+		<div class="main-carousel" data-flickity='{ "contain": true }'>
+			<div class="ign_schedule_page1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="ign_schedule_page2_gallery_cell"onclick="onImageClick(this)"></div>
+		</div>
+	</div>
+
+	<hr class="ign_divider">
+	</hr>
+
+	<div class="ign_prototyping col-100">
+		<p class="ign_details"> Top navigation bar is not consistent when navigating through the website. With inconsistent UI, users have to relearn what to do when they encounter one.  </p>
+	</div>
+
+	<div class=" col-100">
+		<div class="main-carousel" data-flickity='{ "contain": true }'>
+			<div class="ign_navigation_bar1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="ign_navigation_bar2_gallery_cell"onclick="onImageClick(this)"></div>
+		</div>
+	</div>
+
+
+
+
+
+	<hr class="ign_divider">
+	</hr>
+
+	<div class="ign_prototyping col-100">
+		<p class="ign_title"> THE SOLUTION</p>
+		<p class="ign_details"> I placed the advertisement banner and the 5 most recent highlight updates on top because they have higher importance being the latest. It encourages users to focus on that part of the screen because it is seen first and makes the content more visually important.  </p>
+	</div>
+
+	<div class=" col-100">
+			<div class="ign_desktop_dots_gallery_cell"onclick="onImageClick(this)"></div>
+	</div>
+
+
+	<div class="ign_prototyping col-100">
+		<p class="ign_details"> Dots are shown below to allow users to click or swipe through pages sequentially. This technique can lead to a simpler design with less distracting visual clutter.   </p>
+	</div>
+
+	<hr class="ign_divider">
+	</hr>
+
+
+	<div class="ign_prototyping col-100">
+		<p class="ign_details"> Right underneath are the highlight updates from past events. I grouped the visual elements near because information related to each other should be close. I placed a gray background for “Major Events 2018” because it is an effective way to attract attention to the next content of the page and also staying consistent with the homepage UI.
+  </p>
+	</div>
+
+	<div class=" col-100">
+			<div class="ign_desktop_highlights_gallery_cell"onclick="onImageClick(this)"></div> <br>
+		</div>
+	</div>
+
+	<hr class="ign_divider">
+	</hr>
+
+	<div class="ign_prototyping col-100">
+		<p class="ign_details"> Below are the calendar schedule and latest esport news tab. I utilized whitespace to bring more focus and attention to the calendar so it is not diluted by grids of images and other content on the page. I made the calendar schedule easier to use by allowing them to filter what games they’re interested in and what week they want to see. </p>
+	</div>
+
+	<div class=" col-100">
+			<div class="ign_desktop_calendar_gallery_cell"onclick="onImageClick(this)"></div> <br>
+		</div>
+
+	<hr class="ign_divider">
+	</hr>
+
+
+	<div class="ign_prototyping col-100">
+		<p class="ign_details">Users can quickly jump between tabs to find the latest esport news. If the user is interested in seeing more content, they can explore further information or read further news by clicking on the ‘load more’ button.</p>
+	</div>
+
+	<div class=" col-100">
+			<div class="ign_desktop_news_gallery_cell"onclick="onImageClick(this)"></div> <br>
+		</div>
+
+
+	<hr class="ign_divider">
+	</hr>
+
+	<div class="ign_prototyping col-100">
+		<p class="ign_title"> FINAL MOCKUPS</p>
+		<p class="ign_details"> Final mockup for desktop and mobile </p>
+	</div>
+
+	<div class=" col-100">
+		<div class="main-carousel" data-flickity='{ "contain": true }'>
+			<div class="ign_desktop_v1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="ign_desktop_v2_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="ign_mobile_v1_gallery_cell"onclick="onImageClick(this)"></div>
+			<div class="ign_mobile_v2_gallery_cell"onclick="onImageClick(this)"></div>
+		</div>
+	</div>
+
+
+	<div class="footer">
+	  <p class="footer_description">Copyright © Mai Nguyen. All rights reserved.</p>
+	</div>
+
+	<script src="javascript/flickity.js"></script>
+
+	<script>
+		function guidGenerator() {
+			var S4 = function() {
+			   return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+			};
+			return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+		}
+		var mixpanelID = window.localStorage.getItem("mixpanel_id");
+		if (!mixpanelID) {
+			mixpanelID = guidGenerator();
+			window.localStorage.setItem('mixpanel_id', mixpanelID);
+		}
+		mixpanel.identify(mixpanelID);
+		mixpanel.people.set({
+		    "$last_login": new Date(),
+		});
+		mixpanel.track("IGN Page Viewed");
+	</script>
+
+</body>
+
+</html>

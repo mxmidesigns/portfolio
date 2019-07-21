@@ -3,7 +3,12 @@
 
 <head>
 	<title> Mai's Portfolio</title>
-	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta name="copyright" content="Maihan portfolio"/>
+	<meta name="description" content="Maihan Nguyen UX Portfolio "/>
+	<meta name="keywords" content="Mai, UX Portfolio, UX Designer" />
+	<meta name="robots" content="index, nofollow"/>
+
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
 	<link rel="stylesheet" type="text/css" href="styles/grid.css">
@@ -15,6 +20,13 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script src="./javascript/navbar.js"></script>
+
+	<!-- start Mixpanel --><script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+	0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+	for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+	MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+	mixpanel.init("e24080f7359eedd12398809feba82b78");</script><!-- end Mixpanel -->
+
 </head>
 
 <body>
@@ -24,19 +36,21 @@
 		<a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
 
 		<div class="dropdown">
-			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-briefcase"></i> Projects</button>
+			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-file"></i> Projects</button>
 			<div class="dropdown-content">
+				<a href="fitted.html">Fitted</a>
+				<a href="gocards.html">GoCards</a>
+				<a href="ign.html">IGN</a>
 				<a href="inktank.html">Ink Tank</a>
-				<a href="gocards.html">Go Kards</a>
+
 			</div>
 		</div>
 
-		<a href="#resume"><i class="fa fa-file"></i> Resume </a>
+		<a href="art.html"><i class="fa fa-palette"></i> Art </a>
 		<a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
 		<a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
 
 	</div>
-
 <div class="about_me col-100">
 	<div class="about_me_header">
 	</div>
@@ -46,24 +60,44 @@
 					</div>
 
 					<div class="about_me_button_container">
-						<a href="#" class="about_me_button">Download Resume</a>
+						<a href="./assets/Mai_Nguyen.pdf" target="_blank" class="about_me_button"> View Resume</a>
 					</div>
 
 				</div>
 				<div class="facts col-50">
 					<p class="about_me_description">
-						Greetings! My name is Mai Nguyen. My regular days consists of mapping users' experience thanks to the methods of Design Thinking. I enjoy it a lot, even outside the digital world. I like to analyze interactivity in everyday life and explore concepts of aesthetics and interactive design. My goal is to make sure people
-						have a delightful experience with thoughful design.<br><br>
-						Before, I graduated from San Jose State Universiy with a Bachelor's Degree in Business. Many people wonder "What made you change your study?" Working 2 years at Apigee Corp. & Peloton Technology sparked up my interest into tech. I gathered the courage and started a Bootcamp at
-						CareerFoundry and realized generating creative ideas from user's point of view to create life-impactful design and beautigul experiences is what I enjoy doing. <br><br>
-						My interests include: Playing jazz music on the piano, reading on Cultural Anthropology, drawing with vector graphics, learning programming languages on the side, finding brunch places that sell avocado toast.
+						Greetings! My name is Mai Nguyen. My regular days consists of mapping users' experience thanks to the methods of Design Thinking. I enjoy it a lot, even outside the digital world. I like to analyze interactivity in everyday life and explore concepts of aesthetics and interactive design. My goal is to make technicalities of technology accessible and easy to understand for people.<br><br>
+						Before, I graduated from San Jose State University with a Bachelor's Degree in Business. Many people wonder "What made you change your study?" Working 2 years at Apigee Corp. & Peloton Technology sparked up my interest into tech. I gathered the courage and started a Bootcamp at
+						CareerFoundry and realized generating creative ideas from user's point of view to create life-impactful design and beautiful experiences is what I enjoy doing. <br><br>
+						My interests include: Playing jazz music on the piano, reading scifi books, kickboxing, creating youtube videos, learning programming languages on the side, and eating avocado toast.
 					</p>
 				</div>
 
 
 			</div>
 
+			<div class="footer">
+			  <p class="footer_description">Copyright © Mai Nguyen. All rights reserved.</p>
+			</div>
 
+			<script>
+				function guidGenerator() {
+					var S4 = function() {
+					   return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+					};
+					return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+				}
+				var mixpanelID = window.localStorage.getItem("mixpanel_id");
+				if (!mixpanelID) {
+					mixpanelID = guidGenerator();
+					window.localStorage.setItem('mixpanel_id', mixpanelID);
+				}
+				mixpanel.identify(mixpanelID);
+				mixpanel.people.set({
+					"$last_login": new Date(),
+				});
+				mixpanel.track("About Page Viewed");
+			</script>
 
 
 	</body>

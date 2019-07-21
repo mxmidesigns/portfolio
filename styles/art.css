@@ -1,0 +1,519 @@
+.art_intro{
+	font-size: 50px;
+	color: #e76d89;
+	margin-left: 5%;
+	padding-bottom: 15px;
+
+}
+
+.art_description{
+	font-size: 25px;
+	color: white;
+	margin-left: 5%;
+}
+
+
+.art_container{
+	overflow: hidden;
+}
+
+.art_drawing1{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/hammond.svg") no-repeat center;
+    background-size: cover;
+    margin: 10px;
+
+}
+
+.art_drawing1:hover{
+	opacity: 0.5;
+}
+
+.art_drawing2{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/dva.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 20px;
+}
+
+.art_drawing2:hover{
+	opacity: 0.5;
+}
+
+.art_drawing3{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/ana.png") no-repeat center;
+    background-size: cover;
+    margin: 10px 30px
+}
+
+.art_drawing3:hover{
+	opacity: 0.5;
+}
+
+
+.art_drawing4{
+	width: 85%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/ann.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 40px;
+}
+
+.art_drawing4:hover{
+	opacity: 0.5;
+}
+
+.art_drawing5{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/brigitte.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px;
+}
+
+.art_drawing5:hover{
+	opacity: 0.5;
+}
+
+.art_drawing6{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/palico.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 20px
+}
+
+.art_drawing6:hover{
+	opacity: 0.5;
+}
+
+.art_drawing7{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/pharah.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 30px
+}
+
+.art_drawing7:hover{
+	opacity: 0.5;
+}
+
+.art_drawing8{
+	width: 85%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/mercy.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 40px
+}
+
+.art_drawing8:hover{
+	opacity: 0.5;
+}
+
+.art_drawing9{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/ashe.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px
+}
+
+.art_drawing9:hover{
+	opacity: 0.5;
+}
+
+.art_drawing10{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/japanbackground.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 20px;
+}
+
+.art_drawing10:hover{
+	opacity: 0.5;
+}
+
+.art_drawing11{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/japan.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 30px;
+}
+
+.art_drawing11:hover{
+	opacity: 0.5;
+}
+
+.art_drawing12{
+	width: 85%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/cartoon1.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 40px;
+}
+
+.art_drawing12:hover{
+	opacity: 0.5;
+}
+
+.art_drawing13{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/cartoon2.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px;
+}
+
+.art_drawing13:hover{
+	opacity: 0.5;
+}
+
+.art_drawing14{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/cartoon3.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 20px;
+}
+
+.art_drawing14:hover{
+	opacity: 0.5;
+}
+
+.art_drawing15{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/cartoon4.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 30px;
+}
+
+.art_drawing15:hover{
+	opacity: 0.5;
+}
+
+.art_drawing16{
+	width: 85%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/japanesegirl.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 40px;
+}
+
+.art_drawing16:hover{
+	opacity: 0.5;
+}
+
+.art_drawing17{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/ignlogos.jpg") no-repeat center;
+    background-size: cover;
+	margin: 10px;
+}
+
+.art_drawing17:hover{
+	opacity: 0.5;
+}
+
+.art_drawing18{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/jenjon1.jpg") no-repeat center;
+    background-size: cover;
+	margin: 10px 20px;
+}
+
+.art_drawing18:hover{
+	opacity: 0.5;
+}
+
+.art_drawing19{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/jenjon2.png") no-repeat center;
+    background-size: cover;
+	margin: 10px 30px;
+}
+
+.art_drawing19:hover{
+	opacity: 0.5;
+}
+
+.art_drawing20{
+	width: 85%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/catchonk.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 40px;
+}
+
+.art_drawing20:hover{
+	opacity: 0.5;
+}
+
+
+.art_drawing21{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/porg.gif") no-repeat center;
+    background-size: cover;
+    margin: 10px;
+}
+
+.art_drawing21:hover{
+	opacity: 0.5;
+}
+
+.art_drawing22{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/turtle.png") no-repeat center;
+    background-size: cover;
+    margin: 10px 20px;
+}
+
+.art_drawing22:hover{
+	opacity: 0.5;
+}
+
+.art_drawing23{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/probe.png") no-repeat center;
+    background-size: cover;
+    margin: 10px 30px;
+}
+
+.art_drawing23:hover{
+	opacity: 0.5;
+}
+
+.art_drawing24{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/cat.gif") no-repeat center;
+    background-size: cover;
+    margin: 10px 40px;
+}
+
+.art_drawing24:hover{
+	opacity: 0.5;
+}
+
+.art_drawing25{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/catcart.gif") no-repeat center;
+    background-size: cover;
+    margin: 10px;
+}
+
+.art_drawing25:hover{
+	opacity: 0.5;
+}
+
+
+
+
+@media screen and (max-width: 1080px) {
+	.art_drawing1{
+		width: 95%;
+	    height: 310px;
+	}
+
+	.art_drawing2{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing3{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+	}
+
+	.art_drawing4{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+	}
+
+	.art_drawing5{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+	}
+
+	.art_drawing6{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+	}
+
+	.art_drawing7{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+	}
+
+	.art_drawing8{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing9{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing9{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing10{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing11{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing12{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing13{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing14{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing15{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing16{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing17{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing18{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing19{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing20{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing21{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing22{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing23{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing24{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+}

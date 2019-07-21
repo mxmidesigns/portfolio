@@ -1,0 +1,570 @@
+.ign_cover {
+    width: 100%;
+    height: 600px;
+    background: url("./../assets/ign_header.png") no-repeat;
+    background-repeat: no-repeat;
+ 	background-position: right;
+    background-size: contain;
+	background-color:#D51D29;
+}
+
+.ign_project_title {
+	width: 35%;
+	padding-left: 40px;
+	padding-top: 150px;
+
+}
+
+.ign_project_subtitle{
+	text-align: left;
+	width: 50%;
+	font-size: 25px;
+	font-style: italic;
+	padding-top: 20px;
+	padding-left: 60px;
+	color: white;
+}
+
+.ign_beforeafter_gallery_cell{
+	width: 100%;
+	height: 450px;
+	margin-top: 80px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/beforeafter.png") no-repeat center;
+	background-size: 1000px 450px;
+}
+
+.ign_button_project_container {
+    text-align: center;
+	overflow: hidden;
+}
+
+.ign_button_project {
+    margin-top: 25px;
+	margin-bottom: 25px;
+    background-color: #D51D29;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ign_overview {
+	padding: 0 32px;
+	overflow: hidden;
+}
+
+.ign_discovery{
+	overflow: hidden;
+}
+
+.ign_concepting{
+	overflow: hidden;
+}
+
+.ign_prototyping{
+	overflow: hidden;
+}
+
+.ign_documentation{
+	overflow: hidden;
+}
+
+.ign_categories {
+    color: #D51D29;
+    padding-top: 25px;
+    padding-bottom: 20px;
+	margin-left: 30px;
+}
+
+.ign_description {
+    line-height: 2;
+	margin-left: 30px;
+}
+
+.ign_criteria {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.ign_intro {
+    text-align: center;
+    color: #D51D29;
+    padding-bottom: 10px;
+}
+
+.ign_title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #D51D29;
+}
+
+.ign_details {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+
+.ign_list {
+	padding-left: 32px;
+}
+
+.ign_list_items {
+    margin-bottom: 16px;
+	line-height: 2;
+}
+
+.issue_items{
+	padding-left: 32px;
+	margin-bottom: 16px;
+	color: #D51D29;
+	font-weight: bold;
+}
+
+.main-carousel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+	overflow: hidden;
+}
+
+.gallery {
+    background: #EEE;
+}
+
+.gallery_cell {
+    width: 66%;
+    height: 500px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+}
+
+.ign_esports_page1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_esports_page1.png") no-repeat center;
+	background-size: 900px 500px;
+}
+
+.ign_esports_page2_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_esports_page2.png") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.ign_highfidelity1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_1.jpg") no-repeat center;
+	background-size: 900px 500px;
+}
+
+.ign_schedule_page1_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_schedule_page1.png") no-repeat center;
+	background-size: 900px 550px;
+}
+
+
+.ign_schedule_page2_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_schedule_page2.png") no-repeat center;
+	background-size: 900px 500px;
+}
+
+.ign_navigation_bar1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_navigation_bar1.png") no-repeat center;
+	background-size: 900px 500px;
+}
+
+.ign_navigation_bar2_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_navigation_bar2.png") no-repeat center;
+	background-size: 900px 500px;
+}
+
+.ign_mobile_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_mobile.jpg") no-repeat center;
+	background-size: 900px 500px;
+}
+
+.ign_desktop_dots_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_desktop_dots.jpg") no-repeat center;
+	background-size: 600px 500px;
+}
+
+.ign_desktop_highlights_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_desktop_highlights.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+.ign_desktop_calendar_gallery_cell{
+	width: 100%;
+	height: 650px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_desktop_calendar.jpg") no-repeat center;
+	background-size: 450px 650px;
+}
+
+.ign_desktop_news_gallery_cell{
+	width: 100%;
+	height: 650px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_desktop_news.jpg") no-repeat center;
+	background-size: 450px 650px;
+}
+
+.ign_desktop_v1_gallery_cell{
+	width: 100%;
+	height: 1500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_desktop_v1.jpg") no-repeat center;
+	background-size: 450px 1500px;
+}
+
+.ign_desktop_v2_gallery_cell{
+	width: 100%;
+	height: 1500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_desktop_v2.jpg") no-repeat center;
+	background-size: 450px 1500px;
+}
+
+.ign_mobile_v1_gallery_cell{
+	width: 100%;
+	height: 1500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_mobile_v1.jpg") no-repeat center;
+	background-size: 250px 1500px;
+}
+
+.ign_mobile_v2_gallery_cell{
+	width: 100%;
+	height: 1500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/ign_mobile_v2.jpg") no-repeat center;
+	background-size: 250px 1500px;
+}
+
+/* cell number */
+.gallery_cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.ign_divider {
+    height: 2px;
+    width: 80%;
+    display: block;
+    background-color: #f2f2f2;
+	padding: 0 16px;
+	margin: 8px auto;
+}
+
+.table_header{
+	background-color: #6200EE;
+	color: white;
+	font-size: 1.5em;
+	padding: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+}
+
+table th{
+	background-color: #CEBDFE;
+	height: 50px;
+}
+
+table td{
+	text-align: left;
+    vertical-align: middle;
+	padding-bottom: 25px;
+	line-height: 1.5;
+}
+
+table td, table th {
+  padding: 10px;
+}
+
+.table_icons {
+  height: 40px;
+  width: 40px;
+  background-position: center;
+}
+
+
+table tr:nth-child(2n) {
+  background-color: white;
+}
+table tr:nth-child(2n+1) {
+  background-color: #f2e6ff;
+}
+
+.table-users {
+  border: 1px solid #ebccff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  max-width: calc(100% - 2em);
+  margin: 1em auto;
+  overflow: hidden;
+  width: 800px;
+}
+
+.ign_prototype_screen1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.ign_prototype_screen2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_prototype_screen3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_prototype_screen4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_prototype_screen5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_prototype_screen6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_prototype_screen7_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.ign_esports_page1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_esports_page2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.ign_schedule_page1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_schedule_page2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.ign_navigation_bar1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_navigation_bar2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_mobile_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_desktop_dots_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_desktop_highlights_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_desktop_calendar_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.ign_desktop_news_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+@media screen and (max-width: 1080px) {
+
+	p.ign_description {
+		margin-left: 0;
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	p.ign_details {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 100%;
+	}
+
+	.ign_categories{
+		margin-left: 0;
+	}
+
+	.ign_key_list {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.ign_prototype_screen1_gallery_cell{
+	    background-size: 350px 700px;
+		height: 700px;
+	}
+
+	.ign_prototype_screen2_gallery_cell{
+		background-size: 350px 700px;
+	  	height: 700px;
+	}
+
+	.ign_prototype_screen3_gallery_cell{
+		background-size: 350px 700px;
+ 	    height: 700px;
+	}
+
+	.ign_prototype_screen4_gallery_cell{
+		background-size: 350px 700px;
+	  	height: 700px;
+	}
+
+	.ign_prototype_screen5_gallery_cell{
+		background-size: 350px 700px;
+ 	    height: 700px;
+	}
+
+	.ign_prototype_screen6_gallery_cell{
+		background-size: 350px 700px;
+   	    height: 700px;
+	}
+
+	.ign_prototype_screen7_gallery_cell{
+		background-size: 300px 600px;
+		height: 600px;
+	}
+
+	.ign_categories {
+	   text-align: center;
+	}
+
+	.ign_cover {
+	    height: 600px;
+	}
+
+	.ign_project_title {
+		font-size: 70px;
+		padding-top: 50px;
+
+	}
+
+	.ign_project_subtitle{
+		font-size: 25px;
+        padding: 20px 5px 5px;
+	}
+
+
+	.ign_esports_page1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.ign_esports_page2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+
+	.ign_schedule_page1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.ign_schedule_page2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.ign_navigation_bar1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.ign_navigation_bar2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.ign_desktop_dots_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.ign_mobile_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.ign_desktop_highlights_gallery_cell{
+		height: 250px;
+		background-size: 350px 250px;
+	}
+
+	.ign_desktop_calendar_gallery_cell{
+		height: 450px;
+		background-size: 350px 450px;
+	}
+
+	.ign_desktop_news_gallery_cell{
+		height: 450px;
+		background-size: 350px 450px;
+	}
+
+	.ign_beforeafter_gallery_cell{
+		height: 250px;
+		background-size: 450px 250px;
+	}

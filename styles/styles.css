@@ -19,6 +19,8 @@ a:hover, a:active, a:focus, a {
     outline: 0px none;
 }
 
+
+
 .header {
     grid-area: header;
     position: relative;
@@ -73,8 +75,9 @@ a:hover, a:active, a:focus, a {
     color: #ffffff;
 }
 
-.skills_container {
-    text-align: center;
+.skill-circle {
+	text-align: center;
+	min-height: 254px;
 }
 
 .skill_title {
@@ -93,6 +96,7 @@ a:hover, a:active, a:focus, a {
     width: 130px;
 }
 
+
 .buttons {
     background-color: #0db4b9;
     border: none;
@@ -110,10 +114,23 @@ a:hover, a:active, a:focus, a {
     text-align: center;
 }
 
+.buttons:hover{
+	background-color: #0D8184;
+}
+
 .about_me_button {
     text-align: center;
     padding-top: 50px;
 }
+
+.footer{
+    padding: 10px 20px;
+    background: #e76d89;
+    color: white;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+      }
 
 /* The Modal (background) */
 .modal {
@@ -228,6 +245,10 @@ a:hover, a:active, a:focus, a {
         padding-top: 10px;
         font-size: 20px;
     }
+
+	.skill-circle {
+		width: 50%;
+	}
 
     .skill_description {
         padding-bottom: 30px;

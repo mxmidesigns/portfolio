@@ -1,6 +1,7 @@
 .contact_header {
     background-color: #1d1145;
-    height: 100%;
+	height: 100%;
+	padding-top: 30px;
 }
 
 .contact_heading {
@@ -12,7 +13,6 @@
 
 .lets_get_in_touch {
     background-color: #1d1145;
-    padding-top: 30px;
 }
 
 .cellphone_container {
@@ -22,14 +22,10 @@
     height: 500px;
 }
 
-.cellphone {
-    background: url("./../assets/cellphone.svg") no-repeat center;
-    background-size: contain;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    margin: 0 auto;
-    top: 5%;
+
+.cellphone_img_ctr img {
+	width: 100%;
+	height: 500px;
 }
 
 .contact_description {
@@ -38,6 +34,8 @@
     color: white;
     padding-top: 30px;
     padding-bottom: 100px;
+
+
 
 }
 
@@ -66,6 +64,10 @@
 	font-size: 20px;
 	cursor: pointer;
 	border-radius: 30px;
+}
+
+.contact_button:hover{
+	color: #9F2B46;
 }
 
 .contact_icons {
@@ -141,4 +143,9 @@
     background-size: contain;
 }
 
-@media screen and (max-width: 1080px) {}
+@media screen and (max-width: 1080px) {
+	.contact_header {
+		height: auto;
+	}
+
+}

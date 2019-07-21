@@ -4,7 +4,12 @@
 
 <head>
 	<title> Mai's Portfolio</title>
-	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta name="copyright" content="Maihan portfolio"/>
+	<meta name="description" content="Maihan Nguyen UX Portfolio "/>
+	<meta name="keywords" content="Mai, UX Portfolio, UX Designer" />
+	<meta name="robots" content="index, nofollow"/>
+
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
 	<link rel="stylesheet" type="text/css" href="styles/grid.css">
@@ -17,6 +22,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script src="./javascript/navbar.js"></script>
 	<script src="./javascript/imageViewer.js"></script>
+
+	<!-- start Mixpanel --><script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+	0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+	for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+	MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+	mixpanel.init("e24080f7359eedd12398809feba82b78");</script><!-- end Mixpanel -->
+
 </head>
 
 <body>
@@ -26,18 +38,21 @@
 		<a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
 
 		<div class="dropdown">
-			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-briefcase"></i> Projects</button>
+			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-file"></i> Projects</button>
 			<div class="dropdown-content">
+				<a href="fitted.html">Fitted</a>
+				<a href="gocards.html">GoCards</a>
+				<a href="ign.html">IGN</a>
 				<a href="inktank.html">Ink Tank</a>
-				<a href="gocards.html">Go Kards</a>
 			</div>
 		</div>
 
-		<a href="#resume"><i class="fa fa-file"></i> Resume </a>
+		<a href="art.html"><i class="fa fa-palette"></i> Art </a>
 		<a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
 		<a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
 
 	</div>
+
 	<div class="inktank_cover">
 		<p class="inktank_project_title"> INK TANK </p>
 		<p class="inktank_project_subtitle"> Helping you find your next tattoo. </p>
@@ -45,12 +60,10 @@
 
 	<div class="inktank_overview col-50">
 		<h3 class="inktank_categories "> THE PROBLEM</h3>
-		<p class="inktank_description"> Getting a tattoo is an incredibly personal experience and the overall process of exploring designs and finding an artist could take months. Getting Inked is a big decision and not many web or mobile apps address the
-			complexity and emotional element of finding the right design and tattoo artist. How can I help people to find what they are looking for in an effort to reduce regret and empower people to express themselves in a meaningful way?</p>
+		<p class="inktank_description"> Getting a tattoo is an incredibly personal experience and the overall process of exploring designs and finding an artist could take months. Not many web or mobile apps address the complexity and emotional element of finding the right design and tattoo artist.</p>
 		<br>
 		<h3 class="inktank_categories"> The SOLUTION</h3>
-		<p class="inktank_description">  The app should contain a platform that has high visual content where users can explore tattoo designs by tattoo artists from locally and globally. Users can direct message their tattoo artist to build a closer connection with their tattoo artist. The
-			designs can be search by art style and the design structure should be intuitive where users can explore easily. </p>
+		<p class="inktank_description">  The app should contain a platform that has high visual content where users can explore tattoo designs by tattoo artists from locally and globally. Users can direct message their tattoo artist to build a closer connection with their tattoo artist. The design structure should be intuitive where users can explore easily. </p>
 		<br>
 		<h3 class="inktank_categories"> TOOLS</h3>
 		<p class="inktank_description"> Invision (Prototype), Sketch & Balsamiq (Wireframes and Visual Design), UsabilityHub (Testing) </p>
@@ -103,8 +116,7 @@
 		<p class="inktank_title"> USER INTERVIEW</p>
 		<h4 class="inktank_intro "> Getting to know my users. </h4>
 
-		<p class="inktank_details"> Before diving into the features and overall product, I conducted user interviews to better understand the problem. My research goal was to Understand the friction points in the tattoo experience and identify solutions
-			to ease them, determine how users search for tattoo designs and tattoo artists, and Identify what features users desire the most. The interviews included people who are considering getting a tattoo, tattoo enthusiasts, and tattoo professionals.
+		<p class="inktank_details"> Before diving into the features and overall product, I conducted user interviews to understand the friction points in the tattoo experience and identify solutions to ease them. The interviews included people who are considering getting a tattoo, tattoo enthusiasts, and tattoo professionals.
 		</p>
 	</div>
 
@@ -112,7 +124,7 @@
 	<div class="inktank_overview col-50">
 		<h3 class="inktank_categories "> OBSERVATIONS</h3>
 		<ol class="key_list">
-			<li class="list_items"> There’s always consistent communication with the tattoo artist and clients. Tattoo artists always go back and forth with consultation and revision follow-up appointments.</li>
+			<li class="list_items"> There's always consistent communication with the tattoo artist and clients. Tattoo artists always go back and forth with consultation and revision follow-up appointments.</li>
 			<li class="list_items"> Most users prefer to search for things on Instagram and follow similar artists for awhile before making a decision.</li>
 			<li class="list_items"> People often get tattoos for social reasons to give them a sense of belonging. </li>
 		</ol>
@@ -121,10 +133,9 @@
 	<div class="inktank_overview col-50">
 		<h3 class="inktank_categories "> KEY INSIGHTS</h3>
 		<ol class="key_list">
-			<li class="list_items"> Users do a lot of research online through social media to find art content.</li>
 			<li class="list_items"> People like to follow their tattoo artist on social media and make their decisions after they keep liking their work for some time. People also like to see who their tattoo artists follow as well to find more similar
 				designs.</li>
-			<li class="list_items"> People try to look for the tattoo artist’s phone number or email to contact them for appointments. A direct messaging can help users to get to know their tattoo artist better before they even visit the shop. </li>
+			<li class="list_items"> A direct messaging can help users to get to know their tattoo artist better before they even visit the shop. </li>
 			<li class="list_items"> Sometimes people regret their tattoos because they didn't’t like how their artists designed it. There could be lack of communication or people don’t feel comfortable asking questions in person.</li>
 			<li class="list_items">Tattoo artist have to consistently stay updated with their appointments and it could get overwhelming. Having a way to track multiple appointments would be valuable.</li>
 		</ol>
@@ -226,14 +237,11 @@
 		<p class="inktank_title"> Wireframes</p>
 		<h4 class="inktank_intro "> Bringing the app to life</h4>
 
-		<p class="inktank_details"> A progression of key screens from low to high fidelity wireframes.These iterations were based on feedback received from user testing.</p>
+		<p class="inktank_details"> I created wireframes based on my userflow and made iterations from the feedback received during user testing.</p>
 	</div>
 
 	<div class=" col-100">
 		<div class="main-carousel" data-flickity='{ "contain": true }'>
-			<div class="lowfidelity1_gallery_cell"onclick="onImageClick(this)"></div>
-			<div class="lowfidelity2_gallery_cell"onclick="onImageClick(this)"></div>
-			<div class="lowfidelity3_gallery_cell"onclick="onImageClick(this)"></div>
 			<div class="midfidelity1_gallery_cell"onclick="onImageClick(this)"></div>
 			<div class="midfidelity2_gallery_cell"onclick="onImageClick(this)"></div>
 			<div class="midfidelity3_gallery_cell"onclick="onImageClick(this)"></div>
@@ -264,7 +272,7 @@
 		</ol>
 	</div>
 	<div class="inktank_overview col-50">
-		<h3 class="inktank_categories "> USER TESTING TASKS: </h3>
+		<h3 class="inktank_categories "> SCENARIOS: </h3>
 		<ol class="key_list">
 			<li class="list_items"> Imagine you are exploring through the app and you found a tattoo collection you like and would like to bookmark it.</li>
 			<li class="list_items"> You want to create a new collection for your tattoo ideas.</li>
@@ -288,17 +296,17 @@
 
 				<tr>
 					<td><img src="./assets/issue1.svg" alt="navigation" /></td>
-					<td>‘Tattoos’ and ’Find Artist’ on the bottom navigation are confusing </td>
+					<td>'Tattoos' and 'Find Artist' on the bottom navigation are confusing. </td>
 					<td>HIGH</td>
-					<td>Consolidate the two search functions. Remove ‘Find Artist’ tab, and combine it with ‘Tattoos’ tab. </td>
+					<td>Consolidate the two search functions. Remove 'Find Artist' tab, and combine it with 'Tattoos' tab. </td>
 					<td>Users were confused if they had to browse for specific styles of tattoos first and then choose an artist or vice versa. Most users were lost on the navigation and were not sure if the search show the same result views. </td>
 				</tr>
 
 				<tr>
 					<td><img src="./assets/issue2.svg" alt="clicks" /></td>
-					<td>‘Saving Picture’ process has too many clicks</td>
+					<td>'Saving Picture' process has too many clicks</td>
 					<td>HIGH</td>
-					<td>Consolidate and simplify menus and interactions. Add a long hold so users can easily and quickly save pictures instead of going to a new screen.  This will reduce the amount of steps it takes to complete an action.</td>
+					<td>Consolidate and simplify menus and interactions. Add a long hold so users can easily and quickly save pictures instead of going to a new screen. This will reduce the amount of steps it takes to complete an action.</td>
 					<td>Users mentioned the process had too many taps and wanted to quickly save images without having to open the image in a new screen. </td>
 				</tr>
 
@@ -306,15 +314,15 @@
 					<td><img src="./assets/issue3.svg" alt="editing" /></td>
 					<td>Editing date when choosing appointment date </td>
 					<td>MEDIUM</td>
-					<td>Make the calendar date locked and grayed out and move the ’calendar edit’ icon next to the date. This will help users know where to click.</td>
-					<td> Users were tapping on the date instead of the ‘calendar edit’ icon to change dates. </td>
+					<td>Make the calendar date locked and grayed out and move the 'calendar edit' icon next to the date. This will help users know where to click.</td>
+					<td> Users were tapping on the date instead of the 'calendar edit' icon to change dates. </td>
 				</tr>
 
 				<tr>
 					<td><img src="./assets/issue4.svg" alt="location" /></td>
-					<td>Location of ‘Add New Collection’ </td>
+					<td>Location of 'Add New Collection' </td>
 					<td>HIGH</td>
-					<td>Move ‘Add New Collection’ button closer to the collections.</td>
+					<td>Move 'Add New Collection' button closer to the collections.</td>
 					<td>Majority of the users could not find the button to add a new collection or took many random taps to figure out. </td>
 				</tr>
 
@@ -398,7 +406,7 @@
 
 	<div class="inktank_documentation col-100">
 		<p class="inktank_title"> Key Learnings</p>
-		<p class="inktank_details"> Sometimes a feature that seemed innovative on a design stand point, but reality is that it might not translate well with the user understanding the feature. Designers have to learn to let go of the feature during the
+		<p class="inktank_details"> Sometimes a feature that seemed innovative on a design stand point, but the reality is that it might not translate well with the user understanding the feature. Designers have to learn to let go of the feature during the
 			project. </p>
 	</div>
 
@@ -412,7 +420,31 @@
 		</ol>
 	</div>
 
+	<div class="footer">
+	  <p class="footer_description">Copyright © Mai Nguyen. All rights reserved.</p>
+	</div>
+
 	<script src="javascript/flickity.js"></script>
+
+	<script>
+		function guidGenerator() {
+			var S4 = function() {
+			   return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+			};
+			return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+		}
+		var mixpanelID = window.localStorage.getItem("mixpanel_id");
+		if (!mixpanelID) {
+			mixpanelID = guidGenerator();
+			window.localStorage.setItem('mixpanel_id', mixpanelID);
+		}
+		mixpanel.identify(mixpanelID);
+		mixpanel.people.set({
+			"$last_login": new Date(),
+		});
+		mixpanel.track("Inktank Page Viewed");
+	</script>
+
 </body>
 
 </html>
